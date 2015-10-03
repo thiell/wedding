@@ -29,3 +29,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+google:
+  key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
