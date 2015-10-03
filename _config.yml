@@ -3,7 +3,7 @@ title: Chris & Nikita
 email: chris@baclig.me
 url: https://example.github.io
 description: "Chris & Nikita"
-baseurl: "/wedding"
+baseurl: "/"
 
 # Color settings
 color:
