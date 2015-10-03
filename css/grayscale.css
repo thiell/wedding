@@ -366,3 +366,17 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+/* Author: cbaclig */
+.thumbnail {
+  padding: 0;
+  border-radius: 0;
+}
+
+.thumbnail .caption {
+  padding-top: 35px;
+}
+
+.thumbnail .caption h4 {
+  margin-bottom: 0;
+}
