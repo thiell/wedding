@@ -29,7 +29,7 @@ $(function() {
         if(event.elapsed){
           // show nothing
         } else {
-          $(this).html(event.strftime('%-D day%!D %-H h %M min %S sec'));
+          $(this).html(event.strftime('%-D day%!D %-Hh %-Mm %-Ss'));
         }
       });
 });
