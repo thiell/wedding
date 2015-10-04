@@ -22,6 +22,16 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    $('#countdown')
+      .countdown(new Date('2016-05-28T05:00:00.000Z'), {})
+      .on('update.countdown', function(event){
+        if(event.elapsed){
+          // show nothing
+        } else {
+          $(this).html(event.strftime('%-D day%!D %-H h %M min %S sec'));
+        }
+      });
 });
 
 // Closes the Responsive Menu on Menu Item Click
