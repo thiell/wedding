@@ -26,6 +26,40 @@ social:
   - title: github
     url: https://github.com/IronSummitMedia/startbootstrap
 
+story:
+  - year: 2006
+    title: Chris and Nikita First Meet
+    image: meet.jpg
+    content: TODO
+  - year: 2007
+    title: Chris and Nikita Start Dating
+    image: date.jpg
+    content: TODO
+  - year: 2007
+    title: Nikita Goes to Greece
+    image: greece.jpg
+    content: TODO
+  - year: 2007-2009
+    title: Fall in Love at Stanford
+    image: stanford.jpg
+    content: TODO
+  - year: 2009
+    title: Chris and Nikita Graduate from Stanford
+    image: graduate.jpg
+    content: TODO
+  - year: 2011
+    title: Nikita Moves to Chicago
+    image: nikita-to-chicago.jpg
+    content: TODO
+  - year: 2013
+    title: Chris Moves to Chicago
+    image: chris-to-chicago.jpg
+    content: TODO
+  - year: 2014
+    title: Chris Pops the Question
+    image: engagement.jpg
+    content: TODO
+
 # Build settings
 markdown: kramdown
 permalink: pretty
