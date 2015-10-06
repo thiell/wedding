@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -65,7 +65,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #fff;
 }
 
@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #404040;
     /*text-shadow: 0px 0px 1px #B38C00;*/
 }
 
@@ -111,6 +111,10 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.navbar-custom {
+    border-bottom: 2px solid #AFA63D;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -124,15 +128,18 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #F1E7AC;
+        background-color: #fff;
     }
 
     .navbar-custom.top-nav-collapse a{
       color: #404040;
     }
 
+    .navbar a {
+      color: #fff;
+    }
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid #AFA63D;
+        border-bottom: 2px solid #AFA63D;
     }
 }
 
@@ -279,6 +286,7 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 200px;
+        padding-bottom: 200px;
     }
 
     .download-section {
@@ -293,7 +301,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -384,6 +392,47 @@ body {
 
 .thumbnail .caption h4 {
   margin-bottom: 0;
+}
+
+.billboard {
+  display: table;
+  width: 100%;
+  height: 600px;
+  max-height: 70%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  text-shadow: black 2px 2px 10px;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+.billboard-text {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.billboard-two {
+  background-image: url(../img/story-two.jpg);
+}
+
+.billboard-three {
+  background-image: url(../img/story-three.jpg);
+}
+
+.billboard-four {
+  background-image: url(../img/story-four.jpg);
 }
 
 /* From https://github.com/y7kim/agency-jekyll-theme */
