@@ -26,39 +26,21 @@ social:
   - title: github
     url: https://github.com/IronSummitMedia/startbootstrap
 
-story:
-  - year: 2006
-    title: Chris and Nikita First Meet
-    image: meet.jpg
-    content: TODO
-  - year: 2007
-    title: Chris and Nikita Start Dating
-    image: date.jpg
-    content: TODO
-  - year: 2007
-    title: Nikita Goes to Greece
-    image: greece.jpg
-    content: TODO
-  - year: 2007-2009
-    title: Chris and Nikita Fall in Love at Stanford
-    image: stanford.jpg
-    content: TODO
-  - year: 2009
-    title: Chris and Nikita Graduate from Stanford
-    image: graduate.jpg
-    content: TODO
-  - year: 2011
-    title: Nikita Moves to Chicago
-    image: nikita-to-chicago.jpg
-    content: TODO
-  - year: 2013
-    title: Chris Moves to Chicago
-    image: chris-to-chicago.jpg
-    content: TODO
-  - year: 2014
-    title: Chris Pops the Question
-    image: engagement.jpg
-    content: TODO
+hotels:
+  - name: Hilton Chicago
+    address1: 720 South Michigan Ave.
+    address2: Chicago, IL 60605
+    phone: +1-312-922-4400
+    reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+    coordinates: 41.872592,-87.62481
+    google_maps_url: https://www.google.com/maps/place/Hilton+Chicago/@41.8725329,-87.6248502,17z/data=!4m7!1m4!3m3!1s0x880e2c99242c7a2f:0x4de3d4bb09dba1!2sHilton+Chicago!3b1!3m1!1s0x880e2c99242c7a2f:0x4de3d4bb09dba1
+  - name: Travelodge Downtown
+    address1: 65 East Harrison St.
+    address2: Chicago, IL 60605
+    phone: +1-312-427-8000
+    reserve_url: javascript://
+    coordinates: 41.874233,-87.625483
+    google_maps_url: https://www.google.com/maps/place/Travelodge+Hotel+Downtown+Chicago/@41.874275,-87.6254201,17z/data=!3m1!4b1!4m2!3m1!1s0x880e2c988de9afb9:0x101e1912d2e313fd
 
 # Build settings
 markdown: kramdown
