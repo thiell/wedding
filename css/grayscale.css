@@ -453,6 +453,22 @@ body {
   background-image: url(../img/story-four.jpg);
 }
 
+.billboard-wall {
+  background-position: center;
+  background-image: url(../img/wall.jpg);
+}
+
+.billboard-stairs {
+  background-position: center -70px;
+  background-image: url(../img/stairs.jpg);
+}
+
+.billboard-skyline {
+  background-position: center;
+  background-image: url(../img/skyline.jpg);
+}
+
+
 /* From https://github.com/y7kim/agency-jekyll-theme */
 .timeline {
     position: relative;
