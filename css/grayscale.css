@@ -88,6 +88,10 @@ a:focus {
     outline: 0;
 }
 
+.navbar-custom .navbar-toggle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .navbar-custom a {
     color: #404040;
     /*text-shadow: 0px 0px 1px #B38C00;*/
@@ -117,7 +121,6 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -164,11 +167,11 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.brand-heading {
     font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
+.intro-text {
     font-size: 18px;
 }
 
@@ -178,11 +181,11 @@ a:focus {
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
+    .brand-heading {
         font-size: 100px;
     }
 
-    .intro .intro-body .intro-text {
+    .intro-text {
         font-size: 25px;
     }
 }
@@ -399,7 +402,6 @@ body {
   width: 100%;
   height: 600px;
   max-height: 70%;
-  padding: 100px 0;
   text-align: center;
   color: #fff;
   text-shadow: black 2px 2px 10px;
@@ -414,13 +416,26 @@ body {
   position: relative;
 }
 
+.billboard-header {
+    /* Height of nav + 2px bottom border*/
+    margin-top: 52px;
+    height: 175px;
+}
+
 .billboard-text {
   position: absolute;
   top: 50%;
-  margin-top: -15px;
-  height: 30px;
+  margin-top: -0.5em;
+  height: 1em;
   text-align: center;
   width: 100%;
+  letter-spacing: 0.1em;
+}
+
+@media(min-width:767px) {
+  .billboard-header {
+      height: 300px;
+  }
 }
 
 .billboard-two {

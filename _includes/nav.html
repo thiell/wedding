@@ -1,11 +1,11 @@
  <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top {% if page.invisible_nav %} navbar-hidden-top {% else %} top-nav-collapse {% endif %}" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand" href="/">
                   C & N
                 </a>
             </div>
@@ -18,18 +18,18 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#ourstory">Our Story</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#events">Events</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#accommodations">Accommodations</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#registry">Registry</a>
+                        <a class="page-scroll" href="/">Our Story</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="/celebrations">Celebrations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/accommodations">Accommodations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/etc">Everything Else</a>
+                    </li>
+                    <!-- <li>
                         <a class="page-scroll" href="#traditions">Traditions</a>
                     </li> -->
                 </ul>
