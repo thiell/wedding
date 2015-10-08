@@ -160,6 +160,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 .intro .intro-body {
@@ -169,6 +170,7 @@ a:focus {
 
 .brand-heading {
     font-size: 40px;
+    letter-spacing: 0.025em;
 }
 
 .intro-text {
@@ -430,11 +432,16 @@ body {
   text-align: center;
   width: 100%;
   letter-spacing: 0.1em;
+  font-size: 40px;
 }
 
 @media(min-width:767px) {
   .billboard-header {
       height: 300px;
+  }
+
+  .billboard-text {
+    font-size: 80px;
   }
 }
 
