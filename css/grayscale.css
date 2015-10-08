@@ -454,17 +454,17 @@ body {
 }
 
 .billboard-wall {
-  background-position: center;
+  background-position: center -193px;
   background-image: url(../img/wall.jpg);
 }
 
 .billboard-stairs {
-  background-position: center -70px;
+  background-position: center -186px;
   background-image: url(../img/stairs.jpg);
 }
 
 .billboard-skyline {
-  background-position: center;
+  background-position: center -17em;
   background-image: url(../img/skyline.jpg);
 }
 
