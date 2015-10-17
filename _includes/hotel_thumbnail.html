@@ -1,17 +1,17 @@
 <div class="thumbnail">
-  <a target="_blank" href="{{ hotel.google_maps_url }}">
-    <img src="https://maps.googleapis.com/maps/api/staticmap?key={{ site.google.key }}&size=555x305&markers={{ hotel.coordinates }}">
+  <a target="_blank" href="{{ site.hotel.google_maps_url }}">
+    <img src="https://maps.googleapis.com/maps/api/staticmap?key={{ site.google.key }}&size=555x305&markers={{ site.hotel.coordinates }}">
   </a>
   <div class="caption">
-    <h3>{{ hotel.name }}</h3>
+    <h3>{{ site.hotel.name }}</h3>
     <p>
-      {{ hotel.address1 }}
+      {{ site.hotel.address1 }}
       <br>
-      {{ hotel.address2 }}
+      {{ site.hotel.address2 }}
       <br>
-      <span class="hidden-xs">{{ hotel.phone }}</span>
+      <span class="hidden-xs">{{ site.hotel.phone }}</span>
     </p>
-    <a class="btn btn-primary" href="{{ hotel.reserve_url }}">Reserve</a>
-    <a class="btn btn-default visible-xs-inline-block" href="tel://{{ hotel.phone }}">Call</a>
+    <a class="btn btn-primary" href="{{ site.hotel.reserve_url }}">Reserve</a>
+    <a class="btn btn-default visible-xs-inline-block" href="tel://{{ site.hotel.phone }}">Call</a>
   </div>
 </div>
