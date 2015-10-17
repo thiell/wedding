@@ -271,6 +271,10 @@ a:focus {
     padding-bottom: 100px;
 }
 
+.content-section h2 small {
+  white-space: nowrap;
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;

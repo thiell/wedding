@@ -3,3 +3,38 @@ layout: info
 title: Celebrations
 billboard_class: billboard-stairs
 ---
+
+{% for event in site.events %}
+  <section class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>
+          {{ event.name }}
+          <small>
+            {{ event.date }} | {{ event.time }}
+          </small>
+        </h2>
+
+        <!-- {% include google_map.html link=event.google_maps_url coordinates=event.coordinates size="555x305" %} -->
+        <address>
+          <strong>{{ event.location_name }}</strong><br>
+          <a href="{{ event.google_maps_url }}">
+            {{ event.address1 }}<br>
+            {{ event.address2 }}<br>
+          </a>
+        </address>
+
+        <dl>
+          <dt>Attire</dt>
+          <dd>{{ event.attire }}</dd>
+
+          <dt>Transportation</dt>
+          <dd>{{ event.transportation }}</dd>
+        </dl>
+
+        <p>{{ event.description }}</p>
+
+      </div>
+    </div>
+  </section>
+{% endfor %}

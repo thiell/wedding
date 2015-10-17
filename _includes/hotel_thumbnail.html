@@ -1,7 +1,5 @@
 <div class="thumbnail">
-  <a target="_blank" href="{{ site.hotel.google_maps_url }}">
-    <img src="https://maps.googleapis.com/maps/api/staticmap?key={{ site.google.key }}&size=555x305&markers={{ site.hotel.coordinates }}">
-  </a>
+  {% include google_map.html link=site.hotel.google_maps_url coordinates=site.hotel.coordinates size="555x305" %}
   <div class="caption">
     <h3>{{ site.hotel.name }}</h3>
     <p>
