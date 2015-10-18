@@ -64,7 +64,7 @@ events:
     time: 7pm
     attire: Casual
     description:
-    transportation: 
+    transportation:
     <<: *vashi_location
   - name: Garba
     date: Friday, May 27, 2016
@@ -101,3 +101,7 @@ permalink: pretty
 
 google:
   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
+
+calendar:
+  ical: https://www.google.com/calendar/ical/baclig.com_fqi9g8u7mre0m4oaqj1p66608c%40group.calendar.google.com/public/basic.ics
+  google_id: baclig.com_fqi9g8u7mre0m4oaqj1p66608c@group.calendar.google.com
