@@ -63,37 +63,37 @@ events:
     date: Thursday, May 26, 2016
     time: 7pm
     attire: Casual
-    description: This is the description
-    transportation: This is the trasnportation info <b>hi</b>
+    description:
+    transportation: 
     <<: *vashi_location
   - name: Garba
     date: Friday, May 27, 2016
     time: 7pm
-    attire: Casual
+    attire: Semi-formal
     description:
     transportation:
     <<: *hilton_location
   - name: Hindu Wedding
     date: Saturday, May 28, 2016
     time: 11am
-    attire: Casual
+    attire: Formal
     description:
     transportation:
     <<: *hilton_location
   - name: Catholic Wedding
     date: Sunday, May 29, 2016
     time: 3pm
-    attire: Casual
+    attire: Formal
     description:
     transportation:
     <<: *st_michael_location
   - name: Reception
     date: Sunday, May 29, 2016
     time: 7pm
-    attire: Casual
+    attire: Formal
     description:
     transportation:
-    <<: *navy_pier_location    
+    <<: *navy_pier_location
 
 # Build settings
 markdown: kramdown
