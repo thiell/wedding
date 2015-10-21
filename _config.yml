@@ -57,10 +57,10 @@ hotels:
     phone: +1-312-922-4400
     reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
     <<: *hilton_location
-  - name: Brunham Hotel
-    phone: +1-312-922-4400
-    reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
-    <<: *hilton_location
+  # - name: Brunham Hotel
+  #   phone: +1-312-922-4400
+  #   reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+  #   <<: *hilton_location
 
 events:
   - name: Mehndi Night

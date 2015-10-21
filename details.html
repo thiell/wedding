@@ -16,7 +16,7 @@ billboard_class: billboard-wall
       </p>
       <div class="row">
         {% for hotel in site.hotels %}
-          <div class="{% cycle 'col-lg-offset-2', '' %} col-lg-4 ">
+          <div class="{% cycle 'col-lg-offset-4', '' %} col-lg-4 ">
             {% include hotel_thumbnail.html hotel=hotel %}
           </div>
         {% endfor %}
