@@ -15,9 +15,12 @@ billboard_class: billboard-wall
         reference the Vashi-Baclig wedding.
       </p>
       <div class="row">
-        <div class="col-lg-6 col-lg-offset-3">
-          {% include hotel_thumbnail.html %}
-        </div>
+        {% for hotel in site.hotels %}
+          <div class="{% cycle 'col-lg-offset-2', '' %} col-lg-4 ">
+            {% include hotel_thumbnail.html hotel=hotel %}
+          </div>
+        {% endfor %}
+
       </div>
     </div>
   </div>

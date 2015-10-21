@@ -52,11 +52,15 @@ locations:
     coordinates: 41.911652,-87.641253
     google_maps_url: https://www.google.com/maps/place/St+Michael+in+Old+Town/@41.912635,-87.6408956,15z/data=!4m2!3m1!1s0x0:0xe227f2c7eb743c04
 
-hotel:
-  name: Hilton Chicago
-  phone: +1-312-922-4400
-  reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
-  <<: *hilton_location
+hotels:
+  - name: Hilton Chicago
+    phone: +1-312-922-4400
+    reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+    <<: *hilton_location
+  - name: Brunham Hotel
+    phone: +1-312-922-4400
+    reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+    <<: *hilton_location
 
 events:
   - name: Mehndi Night
