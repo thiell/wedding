@@ -124,12 +124,14 @@ a:focus {
 }
 
 .navbar-custom {
-    border-bottom: 2px solid #AFA63D;
+    border-bottom: 3px solid #AFA63D;
+    box-shadow: #888 0px 1px 10px;
 }
 
 @media(min-width:767px) {
     .navbar {
         border-bottom: 0;
+        box-shadow: none;
         letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -150,7 +152,8 @@ a:focus {
       color: #fff;
     }
     .navbar-custom.top-nav-collapse {
-        border-bottom: 2px solid #AFA63D;
+        border-bottom: 3px solid #AFA63D;
+        box-shadow: #888 0px 1px 10px;
     }
 }
 
