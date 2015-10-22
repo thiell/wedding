@@ -101,6 +101,10 @@ a:focus {
     /*text-shadow: 0px 0px 1px #B38C00;*/
 }
 
+.navbar-custom ul {
+    font-size: 14px;
+}
+
 .navbar-custom .nav li.active {
     outline: nonte;
     background-color: rgba(255,255,255,.3);

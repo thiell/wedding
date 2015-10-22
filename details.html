@@ -14,7 +14,7 @@ billboard_class: billboard-wall
         Both offer public transportation and private taxis into the city.
       </p>
     </div>
-    <div class="col-lg-offset-2 col-lg-4 text-left">
+    <div class="col-lg-offset-2 col-lg-4 col-sm-6 text-left">
       <h3>
         O'Hare International
         <br>
@@ -33,7 +33,7 @@ billboard_class: billboard-wall
       </ul>
 
     </div>
-    <div class="col-lg-4 text-left">
+    <div class="col-lg-4 col-sm-6 text-left">
       <h3>
         Midway International
         <br>
@@ -100,7 +100,7 @@ billboard_class: billboard-wall
       </p>
       <div class="row">
         {% for hotel in site.hotels %}
-          <div class="{% cycle 'col-lg-offset-4', '' %} col-lg-4 ">
+          <div class="{% cycle 'col-sm-offset-4', '' %} col-sm-4 ">
             {% include hotel_thumbnail.html hotel=hotel %}
           </div>
         {% endfor %}
@@ -180,7 +180,7 @@ billboard_class: billboard-wall
           </p>
 
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-sm-6">
               <div class="row">
                 <p class="col-xs-offset-1 col-xs-10">
                   <img class="img-responsive" src="/img/uber-black.png">
@@ -200,7 +200,7 @@ billboard_class: billboard-wall
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-sm-6">
               <div class="row">
                 <p class="col-xs-offset-3 col-xs-6">
                   <img class="img-responsive" src="/img/lyft.svg">
