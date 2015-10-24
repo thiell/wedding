@@ -138,22 +138,12 @@ a:focus {
     transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
-.navbar {
-    border-bottom: 0;
-    box-shadow: none;
-    letter-spacing: 1px;
-    background: 0 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
-}
-
-.top-nav-collapse {
+.navbar-custom.is-expanded, .top-nav-collapse {
     padding: 0;
     background-color: #fff;
 }
 
-.navbar-custom.top-nav-collapse a{
+.navbar-custom.is-expanded a, .navbar-custom.top-nav-collapse a{
   color: #404040;
 }
 
@@ -434,6 +424,7 @@ body {
 }
 
 .billboard-two {
+  background-position: left center;
   background-image: url(../img/story-two.jpg);
 }
 

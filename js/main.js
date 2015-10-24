@@ -28,3 +28,11 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('nav').on('show.bs.collapse', function(){
+    $(this).addClass('is-expanded');
+})
+
+$('nav').on('hide.bs.collapse', function(){
+    $(this).removeClass('is-expanded');
+})
