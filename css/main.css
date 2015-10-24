@@ -108,7 +108,7 @@ a:focus {
 .navbar-custom.top-nav-collapse .nav li.active,
 .navbar-custom.is-expanded .nav li.active {
     outline: none;
-    background-color: rgba(0,0,0,.3);
+    background-color: #ddd;
 }
 
 .navbar-custom .nav li a {
