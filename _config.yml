@@ -4,6 +4,7 @@ email: chris@baclig.me
 url: https://example.github.io
 description: "Chris & Nikita"
 baseurl: ""
+host: 0.0.0.0 # listen to LAN connections
 
 locations:
   hilton: &hilton_location
