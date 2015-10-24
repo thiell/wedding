@@ -45,35 +45,35 @@ events:
   - name: Mehndi Night
     date: Thursday, May 26, 2016
     time: 7pm
-    attire: Casual
+    attire: Casual, Indian/Western
     description: A casual gathering where henna is applied in intricate designs to the hands and feet of the bride and her female guests. Meant as one of many ritual adornments for the Hindu bride, it is said that the darker the henna turns out, the greater the love the bride has for her groom.  Mehndi artists also hide the groom’s name or initials into the bride’s henna design and it is her job to find them before the wedding. Traditionally, the bride is not allowed to work in her husband’s house until after the mehndi has completely faded. Further, with their hands covered in henna paste, the women of the party are unable to cook or serve during the Mehndi celebration, so the men are invited to feed and serve the women.
     transportation:
     <<: *vashi_location
   - name: Garba
     date: Friday, May 27, 2016
     time: 7pm
-    attire: Semi-formal
+    attire: Semi-formal, Indian/Western
     description: A night of traditional Gujarati folk dancing! Set to energetic music, garba is a style of group dance performed as a ritual homage to a the Hindu goddess of creation, Ambama. Garba is usually accompanied by Raas, a similar style of dance dedicated to the Hindu god Krishna that incorporates a set of sticks called Dandiya. Both are traditionally performed during the Gujarati festival of Navratri (“nine-nights”) and also as a precedent to special occasions such as weddings. Everyone is invited and encourage to join in the dancing - don’t worry, there will be tutorials!  And keep an eye out for a few special performances from close family and friends.
     transportation:
     <<: *hilton_location
   - name: Hindu Wedding
     date: Saturday, May 28, 2016
     time: 11am
-    attire: Formal
+    attire: Formal, Indian/Western
     description: The Hindu wedding ceremony as described by the Vedas, the Hindu scriptures, is over 5,000 years old and is traditionally performed in the Sanskrit language. The ceremony commemorates the bride and groom no longer existing as two independent souls but as a spiritual oneness. Ceremonies include the Barat (Arrival of the Groom), Pokhna Vidhi (Welcoming of the Groom), Jai Mala (Exchange of Garlands), Vastra Granthi Bandhan (Tying the Knot), Mangalphera (Holy Circles around the Fire), and Saptapadi (Taking Life’s Seven Steps).
     transportation:
     <<: *hilton_location
   - name: Catholic Wedding
     date: Sunday, May 29, 2016
     time: 3pm
-    attire: Formal
+    attire: Formal, Black Tie Optional
     description: The traditional Catholic wedding is enhanced in Filipino culture by several traditions. Ceremonial sponsors or godparents are chosen by the betrothed as role models for their future married life and participate in the procession with the bridal party. Two separate candles are lit at the beginning of the ceremony, which the bride and groom then join into a single flame signifying the union of their two families. A veil is placed over the shoulders of the bride and groom during the ceremony, demonstrating the clothing of two individuals as one. A cord is then looped in a figure 8 and placed over the heads of the bride and group to signify everlasting fidelity.
     transportation:
     <<: *st_michael_location
   - name: Reception
     date: Sunday, May 29, 2016
     time: 7pm
-    attire: Formal
+    attire: Formal, Black Tie Optional
     description: Join us for dinner and dancing as we celebrate our marriage into the night!
     transportation:
     <<: *navy_pier_location
