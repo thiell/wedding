@@ -437,12 +437,12 @@ body {
 }
 
 .billboard-wall {
-  background-position: center -193px;
+  background-position: center -80px;
   background-image: url(../img/wall.jpg);
 }
 
 .billboard-stairs {
-  background-position: center -186px;
+  background-position: center center;
   background-image: url(../img/stairs.jpg);
 }
 
@@ -452,6 +452,15 @@ body {
 }
 
 .billboard-bridge-walk {
-  background-position: center -10em;
+  background-position: center center;
   background-image: url(../img/bridge-walk.jpg);
+}
+
+@media(min-width:767px) {
+  .billboard-wall {
+    background-position: center -170px;
+  }
+  .billboard-bridge-walk {
+    background-position: center -10em;
+  }
 }
