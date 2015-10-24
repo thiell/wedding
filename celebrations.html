@@ -7,7 +7,7 @@ billboard_class: billboard-stairs
 {% for event in site.events %}
   <section class="container content-section {% cycle 'text-left', 'text-right' %}">
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-3 col-sm-offset-2 col-sm-8">
+      <div class="col-lg-5 col-lg-offset-{% cycle 3, 4 %} col-sm-offset-2 col-sm-8">
         <h2>
           {{ event.name }}
           <br>
@@ -45,10 +45,8 @@ billboard_class: billboard-stairs
   </section>
 {% endfor %}
 
-<section class="container content-section text-center">
+<!-- <section class="container content-section text-center">
   <p>
     <a class="btn btn-default" href="{{ site.calendar.ical }}">Import to calendar</a>
-    <!-- <br>
-    <a class="btn btn-link btn-sm" href="">Learn more</a> -->
   </p>
-</section>
+</section> -->
