@@ -1,3 +1,5 @@
-Branch for demo purposes only. 
+Uses [Jekyll](https://jekyllrb.com/) hosted on [GitHub Pages](https://pages.github.com/)
 
-Do not use for your projects
+## Development
+
+Start: `jekyll serve`
