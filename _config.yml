@@ -5,27 +5,6 @@ url: https://example.github.io
 description: "Chris & Nikita"
 baseurl: ""
 
-# Color settings
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
-
-# Footer settings
-footer: Chris & Nikita
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-
 locations:
   hilton: &hilton_location
     location_name: Hilton Chicago
@@ -98,14 +77,13 @@ events:
     description: Join us for dinner and dancing as we celebrate our marriage into the night!
     transportation:
     <<: *navy_pier_location
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
 google:
   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
 
 calendar:
   ical: https://www.google.com/calendar/ical/baclig.com_fqi9g8u7mre0m4oaqj1p66608c%40group.calendar.google.com/public/basic.ics
   google_id: baclig.com_fqi9g8u7mre0m4oaqj1p66608c@group.calendar.google.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
