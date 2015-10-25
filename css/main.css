@@ -95,7 +95,13 @@ a:focus {
 .navbar-custom .navbar-toggle {
   margin-top: 5px;
   margin-bottom: 5px;
+  color: #fff;
 }
+
+.navbar-custom.top-nav-collapse .navbar-toggle {
+  color: inherit;
+}
+
 .navbar-custom a {
     color: #404040;
     /*text-shadow: 0px 0px 1px #B38C00;*/
