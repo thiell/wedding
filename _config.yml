@@ -36,6 +36,8 @@ hotels:
   - name: Hilton Chicago
     phone: +1-312-922-4400
     reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+    rate: $229/night
+    description: Includes continental breakfast each night
     <<: *hilton_location
   # - name: Brunham Hotel
   #   phone: +1-312-922-4400
@@ -47,7 +49,7 @@ events:
     date: Thursday, May 26, 2016
     time: 7pm
     attire: Casual, Indian/Western
-    description: A casual gathering where henna is applied in intricate designs to the hands and feet of the bride and her female guests. Meant as one of many ritual adornments for the Hindu bride, it is said that the darker the henna turns out, the greater the love the bride has for her groom.  Mehndi artists also hide the groom’s name or initials into the bride’s henna design and it is her job to find them before the wedding. Traditionally, the bride is not allowed to work in her husband’s house until after the mehndi has completely faded. Further, with their hands covered in henna paste, the women of the party are unable to cook or serve during the Mehndi celebration, so the men are invited to feed and serve the women.
+    description: A casual family gathering where henna is applied in intricate designs to the hands and feet of the bride and her female guests. Meant as one of many ritual adornments for the Hindu bride, it is said that the darker the henna turns out, the greater the love the bride has for her groom.  Mehndi artists also hide the groom’s name or initials into the bride’s henna design and it is her job to find them before the wedding. Traditionally, the bride is not allowed to work in her husband’s house until after the mehndi has completely faded. Further, with their hands covered in henna paste, the women of the party are unable to cook or serve during the Mehndi celebration, so the men are invited to feed and serve the women.
     transportation:
     <<: *vashi_location
   - name: Garba
@@ -73,7 +75,7 @@ events:
     <<: *st_michael_location
   - name: Reception
     date: Sunday, May 29, 2016
-    time: 7pm
+    time: 6pm
     attire: Formal, Black Tie Optional
     description: Join us for dinner and dancing as we celebrate our marriage into the night!
     transportation:
