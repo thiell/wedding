@@ -175,8 +175,17 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-attachment: fixed;
     background-position: left bottom;
+}
+
+@media(min-width:992px) {
+  /* 
+    Only allow background-attachment: fixed for desktop-ish sizes
+    https://twitter.com/paul_irish/status/306818591196602368
+  */
+  .intro {
+    background-attachment: fixed;
+  }
 }
 
 .intro .intro-body {
@@ -371,7 +380,6 @@ body {
   color: #fff;
   text-shadow: black 2px 2px 10px;
   background-color: #000000;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top center;
   -webkit-background-size: cover;
@@ -402,12 +410,23 @@ body {
   .billboard {
     height: 400px;
   }
+
   .billboard-header {
       height: 300px;
   }
 
   .billboard-text {
     font-size: 80px;
+  }
+}
+
+@media(min-width:992px) {
+  /* 
+    Only allow background-attachment: fixed for desktop-ish sizes
+    https://twitter.com/paul_irish/status/306818591196602368
+  */
+  .billboard {
+    background-attachment: fixed;
   }
 }
 
