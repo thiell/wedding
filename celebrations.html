@@ -3,8 +3,13 @@ layout: info
 title: Celebrations
 billboard_class: billboard-stairs
 ---
+{% if site.host == site.domains.lbc %}
+  {% assign context = "lbc" %}
+{% else %}
+  {% assign context = "chi" %}
+{% endif %}
 
-{% for event in site.events %}
+{% for event in site.events[context] %}
   <section class="container content-section {% cycle 'text-left', 'text-right' %}">
     <div class="row">
       <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
@@ -17,9 +22,6 @@ billboard_class: billboard-stairs
         </h2>
 
         <div class="row">
-
-          <!-- {% include google_map.html link=event.google_maps_url coordinates=event.coordinates size="555x305" %} -->
-
           <address class="col-xs-8 text-left">
             <strong>{{ event.location_name }}</strong><br>
             <a href="{{ event.google_maps_url }}">
@@ -44,9 +46,3 @@ billboard_class: billboard-stairs
     </div>
   </section>
 {% endfor %}
-
-<!-- <section class="container content-section text-center">
-  <p>
-    <a class="btn btn-default" href="{{ site.calendar.ical }}">Import to calendar</a>
-  </p>
-</section> -->
