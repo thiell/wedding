@@ -93,14 +93,28 @@ billboard_class: billboard-wall
       <h2>Where to Stay</h2>
       <p>
         We have a room block at the Hilton Chicago, which is where Friday and
-        Saturday's events will take place. Please note that rooms are only available
-        through our room block from Thursday, May 26th to Monday, May 30th.
-        For any nights outside that window, please call the hotel directly and
+        Saturday's events will take place.
+      </p>
+      <p>
+        <strong>
+          Please note - rooms are only available through our room block for the following nights:
+          <br>
+          Thursday, May 26
+          <br>
+          Friday, May 27
+          <br>
+          Saturday, May 28
+          <br>
+          Sunday, May 29
+        </strong>
+      </p>
+      <p>
+        For rooms on any nights other than the ones listed, please call the hotel directly and
         reference the Vashi-Baclig wedding.
       </p>
       <div class="row">
         {% for hotel in site.hotels %}
-          <div class="{% cycle 'col-sm-offset-4', '' %} col-sm-4 ">
+          <div class="{% cycle 'col-sm-offset-3', '' %} col-sm-6 ">
             {% include hotel_thumbnail.html hotel=hotel %}
           </div>
         {% endfor %}
