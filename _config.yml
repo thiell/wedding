@@ -41,6 +41,12 @@ locations:
     address2: Long Beach, CA 90802
     coordinates: 33.762145,-118.196914
     google_maps_url: https://www.google.com/maps/place/Aquarium+of+the+Pacific/@33.7621508,-118.1991698,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd313032cc7cb5:0x96dadf4782e15e96
+  hyatt: &hyatt_location
+    location_name: Hyatt Centric
+    address1: 100 W Monroe St
+    address2: Chicago, IL 60603
+    coordinates: 41.8807816,-87.631112
+    google_maps_url: https://www.google.com/maps/place/Hyatt+Centric+The+Loop+Chicago/@41.8807816,-87.631112,15z/data=!4m2!3m1!1s0x0:0xc98ca00ba03f886e?sa=X&ved=0ahUKEwiXxLXTlsjJAhXn4IMKHXNAD2oQ_BIIgAEwCg
 
 hotels:
   - name: Hilton Chicago
@@ -49,10 +55,12 @@ hotels:
     rate: $229/night
     description: Includes continental breakfast each night
     <<: *hilton_location
-  # - name: Brunham Hotel
-  #   phone: +1-312-922-4400
-  #   reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
-  #   <<: *hilton_location
+  - name: Hyatt Centric
+    phone: +1-312-236-1234
+    reserve_url: https://aws.passkey.com/g/54381507
+    rate: $199/night
+    description: Centrally located in the middle of the loop
+    <<: *hyatt_location
 
 events:
   chi:

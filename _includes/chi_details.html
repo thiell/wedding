@@ -87,14 +87,13 @@
     <div class="col-lg-offset-2 col-lg-8">
       <h2>Where to Stay</h2>
       <p>
-        We have a room block at the Hilton Chicago, which is where Friday and
-        Saturday's events will take place.
+        We have a couple room blocks for anyone traveling from out of town.
       </p>
       <p>
         <strong>
           Please note - rooms are only available through our room block for the following nights:
           <br>
-          Thursday, May 26
+          Thursday, May 26 (Hilton only)
           <br>
           Friday, May 27
           <br>
@@ -110,7 +109,7 @@
       </p>
       <div class="row">
         {% for hotel in site.hotels %}
-          <div class="{% cycle 'col-sm-offset-3', '' %} col-sm-6 ">
+          <div class="col-sm-6 ">
             {% include hotel_thumbnail.html hotel=hotel %}
           </div>
         {% endfor %}
