@@ -359,17 +359,27 @@ body {
 }
 
 /* Author: cbaclig */
-.thumbnail {
+.thumbnail.thumbnail-hotel {
   padding: 0;
   border-radius: 0;
 }
 
-.thumbnail .caption {
+.thumbnail.thumbnail-hotel .caption {
   padding-top: 35px;
 }
 
-.thumbnail .caption h4 {
+.thumbnail.thumbnail-hotel .caption h4 {
   margin-bottom: 0;
+}
+
+.thumbnail.thumbnail-portrait .caption h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.thumbnail.thumbnail-portrait {
+    padding: 0;
+    border: none;
 }
 
 .billboard {
