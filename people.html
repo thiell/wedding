@@ -77,9 +77,32 @@ billboard_class: billboard-stairs
 <section class="container content-section text-center">
   <h2>The Crew</h2>
   <div class="row">
-    <div class="col-lg-offset-2 col-lg-8">
-
-
+    <div class="col-lg-2"></div>
+    <div class="col-lg-4 text-left">
+      {% for person in site.people.her_side %}
+        <div class="media">
+          <div class="media-left">
+            <img style="width: 65px" class="media-object" src="/img/people/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">{{ person.name }}</h4>
+            <h5>{{ person.role }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="col-lg-4 text-right">
+      {% for person in site.people.his_side %}
+        <div class="media">
+          <div class="media-body">
+            <h4 class="media-heading">{{ person.name }}</h4>
+            <h5>{{ person.role }}
+          </div>
+          <div class="media-right">
+            <img class="media-object" src="..." alt="...">
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>

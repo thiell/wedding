@@ -126,6 +126,89 @@ people:
     - pic: levi.jpg
       name: Levi Lagrimas
       title: Ring Bearer
+  her_side:
+    - name: Samantha Baclig
+      pic: samie.jpg
+      role: Junior Bridesmaid
+      description: Chris’ Sister
+    - name: Ronak Vashi
+      pic: ronak.jpg
+      role: Bridesmaid
+      description: Nikita’s Cousin
+    - name: Trisha DaSilva
+      pic: trisha.jpg
+      role: Bridesmaid
+      description: Nikita’s Cousin
+    - name: Gabby Colaianni
+      pic: gabby.jpg
+      role: Bridesmaid
+      description: Nikita’s High School Friend
+    - name: Devyn Brown
+      pic: devyn.jpg
+      role: Bridesmaid
+      description: Nikita’s College Roommate
+    - name: Chelsea Barabas
+      pic: chelsea.jpg
+      role: Bridesmaid
+      description: Nikita’s College Roommate
+    - name: Tanya Aylward
+      pic: tanya.jpg
+      role: Bridesmaid
+      description: Nikita’s College Friend
+    - name: Sanjana Tandon
+      pic: sanjana.jpg
+      role: Bridesmaid
+      description: Nikita’s College Friend
+    - name: Leigha Winters
+      pic: leigha.jpg
+      role: Bridesmaid
+      description: Nikita’s Post-College Roommate
+    - name: Miriam Komisar
+      pic: miriam.jpg
+      role: Bridesmaid
+      description: Nikita’s Medical School  Friend
+    - name: Meagan Appleman
+      pic: meagan.jpg
+      role: Bridesmaid
+      description: Nikita’s Medical School Friend
+    - name: Gabby Aguilar
+      pic: gabby.jpg
+      role: Bridesmaid
+      description: Nikita’s Medical School Friend
+  his_side:
+    - name: Jonathan Baclig
+      role: Best Man
+      description: Chris’ Brother
+    - name: Rohan Vashi
+      role: Groomsman
+      description: Nikita’s Brother
+    - name: Ryan Abad
+      role: Groomsman
+      description: Chris’ Cousin
+    - name: Gabriel Mendoza
+      role: Groomsman
+      description: Chris’ High School Friend
+    - name: Eric Ma
+      role: Groomsman
+      description: Chris’ College Roommate
+    - name: Rajan Patel
+      role: Groomsman
+      description: Chris’ College Roommate
+    - name: Arpeet Shah
+      role: Groomsman
+      description: Chris’ College Friend
+    - name: Winston Lofton
+      role: Groomsman
+      description: Chris’ College Friend
+    - name: Scott Keyes
+      role: Groomsman
+      description: Chris’ College Friend
+    - name: Isaac Johnson
+      role: Groomsman
+      description: Chris’ Post-College Roommate
+    - name: Oluwadare Kolawale
+      role: Groomsman
+      description: Chris’ Post-College  Roommate
 
 google:
   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
