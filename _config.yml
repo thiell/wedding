@@ -107,6 +107,26 @@ events:
       description: Join us for dinner and dancing as we celebrate our marriage into the night!
       transportation:
       <<: *aquarium_location
+
+people:
+  families:
+    - pic: vashis.jpg
+      name: The Vashis
+      people: Pankaj, Glynis, Rohan and Cosmo
+    - pic: bacligs.jpg
+      name: The Baclig
+      people: Crispin, Bernadette, Jon and Samantha
+  kids:
+    - pic: nadiya.jpg
+      name: Nadiya Kundu
+      title: Flower Girl
+    - pic: jaanvi.jpg
+      name: Jaanvi Vashi
+      title: Flower Girl
+    - pic: levi.jpg
+      name: Levi Lagrimas
+      title: Ring Bearer
+
 google:
   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
 

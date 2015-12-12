@@ -5,35 +5,24 @@ billboard_class: billboard-stairs
 ---
 
 <section class="container content-section text-center">
+  <h2>The Families</h2>
+  <p>
+    We would be nothing if it wasn't for the love and support
+    of our wonderful parents and siblings.
+  </p>
   <div class="row">
-    <div class="col-lg-offset-2 col-lg-8">
-      <h2>The Families</h2>
-      <p>
-        We would be nothing if it wasn't for the love and support
-        of our wonderful parents and siblings.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-offset-2 col-lg-4">
-      <div class="thumbnail thumbnail-portrait">
-        <img src="/img/people/vashis.jpg" alt="Vashi Family">
-        <div class="caption">
-          <h4>The Vashis</h4>
-          <p>Pankaj, Glynis, Rohan and Cosmo</p>
+    <div class="col-lg-2"></div>
+    {% for family in site.people.families %}
+      <div class="col-lg-4">
+        <div class="thumbnail thumbnail-portrait">
+          <img src="/img/people/{{ family.pic }}" alt="{{ family.name }}" title="{{ family.name }}">
+          <div class="caption">
+            <h4>{{ family.name }}</h4>
+            <p>{{ family.people }}</p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="col-lg-4">
-      <div class="thumbnail thumbnail-portrait">
-        <img src="/img/people/bacligs.jpg" alt="Baclig Family">
-        <div class="caption">
-          <h4>The Bacligs</h4>
-          <p>Crispin, Bernadette, Jon and Samantha</p>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -61,66 +50,36 @@ billboard_class: billboard-stairs
 </section>
 
 <section class="container content-section text-center">
+  <h2>The Young Ones</h2>
+  <p>
+    We’re so lucky to have such wonderful family to serve as
+    flower girls and ring bearers.
+  </p>
   <div class="row">
-    <div class="col-lg-offset-2 col-lg-8">
-      <h2>The Young Ones</h2>
-      <p>
-        We’re so lucky to have such wonderful family to serve as
-        flower girls and ring bearers.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-offset-2 col-lg-2">
-      <div class="thumbnail thumbnail-portrait">
-        <img src="/img/people/nadiya.jpg" alt="Nadiya Kundu">
-        <div class="caption">
-          <p>
-            Nadiya Kundu
-            <br>
-            <small>Flower Girl</small>
-          </p>
+    <div class="col-lg-1"></div>
+    {% for kid in site.people.kids %}
+      <div class="col-lg-offset-1 col-lg-2">
+        <div class="thumbnail thumbnail-portrait">
+          <img src="/img/people/{{ kid.pic }}" alt="{{ kid.name }}" title="{{ kid.name }}">
+          <div class="caption">
+            <p>
+              {{ kid.name }}
+              <br>
+              <small>{{ kid.title }}</small>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="col-lg-offset-1 col-lg-2">
-      <div class="thumbnail thumbnail-portrait">
-        <img src="/img/people/jaanvi.jpg" alt="Jaanvi Vashi">
-        <div class="caption">
-          <p>
-            Jaanvi Vashi
-            <br>
-            <small>Flower Girl</small>
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-lg-offset-1 col-lg-2">
-      <div class="thumbnail thumbnail-portrait">
-        <img src="/img/people/levi.jpg" alt="Levi Lagrimas">
-        <div class="caption">
-          <p>
-            Levi Lagrimas
-            <br>
-            <small>Ring Bearer</small>
-          </p>
-        </div>
-      </div>
-    </div>
-
+    {% endfor %}
   </div>
 </section>
 
 <section class="container content-section text-center">
+  <h2>The Crew</h2>
   <div class="row">
     <div class="col-lg-offset-2 col-lg-8">
-      <h2>The Crew</h2>
-      <p>
-        We would be nothing if it wasn't for the love and support
-        of our wonderful parents and siblings.
-      </p>
+
+
     </div>
   </div>
 </section>
