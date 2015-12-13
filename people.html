@@ -15,7 +15,7 @@ billboard_class: billboard-stairs
     {% for family in site.people.families %}
       <div class="col-lg-4">
         <div class="thumbnail thumbnail-portrait">
-          <img src="/img/people/{{ family.pic }}" alt="{{ family.name }}" title="{{ family.name }}">
+          <img src="/img/people/optimized/{{ family.pic }}" class="img-thumbnail" alt="{{ family.name }}" title="{{ family.name }}">
           <div class="caption">
             <h4>{{ family.name }}</h4>
             <p>{{ family.people }}</p>
@@ -56,11 +56,11 @@ billboard_class: billboard-stairs
     flower girls and ring bearers.
   </p>
   <div class="row">
-    <div class="col-lg-1"></div>
+    <div class="col-lg-3"></div>
     {% for kid in site.people.kids %}
-      <div class="col-lg-offset-1 col-lg-2">
+      <div class="col-lg-2">
         <div class="thumbnail thumbnail-portrait">
-          <img src="/img/people/{{ kid.pic }}" alt="{{ kid.name }}" title="{{ kid.name }}">
+          <img src="/img/people/optimized/{{ kid.pic }}" class="img-thumbnail" alt="{{ kid.name }}" title="{{ kid.name }}">
           <div class="caption">
             <p>
               {{ kid.name }}
@@ -80,26 +80,30 @@ billboard_class: billboard-stairs
     <div class="col-lg-2"></div>
     <div class="col-lg-4 text-left">
       {% for person in site.people.her_side %}
-        <div class="media">
-          <div class="media-left">
-            <img style="width: 65px" class="media-object" src="/img/people/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
+        <div class="row" style="margin-bottom: 35px">
+          <div class="col-lg-6">
+            <img class="img-responsige img-thumbnail" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
           </div>
-          <div class="media-body">
-            <h4 class="media-heading">{{ person.name }}</h4>
-            <h5>{{ person.role }}
-          </div>
+          <p class="col-lg-6">
+            {{ person.name }}
+            <br>
+            <small>{{ person.role }}</small>
+          </p>
         </div>
       {% endfor %}
     </div>
+
+
     <div class="col-lg-4 text-right">
       {% for person in site.people.his_side %}
-        <div class="media">
-          <div class="media-body">
-            <h4 class="media-heading">{{ person.name }}</h4>
-            <h5>{{ person.role }}
-          </div>
-          <div class="media-right">
-            <img class="media-object" src="..." alt="...">
+        <div class="row" style="margin-bottom: 35px">
+          <p class="col-lg-6">
+            {{ person.name }}
+            <br>
+            <small>{{ person.role }}</small>
+          </p>
+          <div class="col-lg-6">
+            <img class="img-responsige img-thumbnail" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
           </div>
         </div>
       {% endfor %}

@@ -114,7 +114,7 @@ people:
       name: The Vashis
       people: Pankaj, Glynis, Rohan and Cosmo
     - pic: bacligs.jpg
-      name: The Baclig
+      name: The Bacligs
       people: Crispin, Bernadette, Jon and Samantha
   kids:
     - pic: nadiya.jpg
@@ -140,7 +140,7 @@ people:
       role: Bridesmaid
       description: Nikita’s Cousin
     - name: Gabby Colaianni
-      pic: gabby.jpg
+      pic: gabbyc.jpg
       role: Bridesmaid
       description: Nikita’s High School Friend
     - name: Devyn Brown
@@ -172,41 +172,52 @@ people:
       role: Bridesmaid
       description: Nikita’s Medical School Friend
     - name: Gabby Aguilar
-      pic: gabby.jpg
+      pic: gabbya.jpg
       role: Bridesmaid
       description: Nikita’s Medical School Friend
   his_side:
     - name: Jonathan Baclig
+      pic: jon.jpg
       role: Best Man
       description: Chris’ Brother
     - name: Rohan Vashi
+      pic: rohan.jpg
       role: Groomsman
       description: Nikita’s Brother
     - name: Ryan Abad
+      pic: ryan.jpg
       role: Groomsman
       description: Chris’ Cousin
     - name: Gabriel Mendoza
+      pic: gabe.jpg
       role: Groomsman
       description: Chris’ High School Friend
     - name: Eric Ma
+      pic: eric.jpg
       role: Groomsman
       description: Chris’ College Roommate
     - name: Rajan Patel
+      pic: rajan.jpg
       role: Groomsman
       description: Chris’ College Roommate
     - name: Arpeet Shah
+      pic: arpeet.jpg
       role: Groomsman
       description: Chris’ College Friend
     - name: Winston Lofton
+      pic: winston.jpg
       role: Groomsman
       description: Chris’ College Friend
     - name: Scott Keyes
+      pic: scott.jpg
       role: Groomsman
       description: Chris’ College Friend
     - name: Isaac Johnson
+      pic: isaac.jpg
       role: Groomsman
       description: Chris’ Post-College Roommate
-    - name: Oluwadare Kolawale
+    - name: Dare Kolawale
+      pic: dare.jpg
       role: Groomsman
       description: Chris’ Post-College  Roommate
 
