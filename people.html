@@ -11,9 +11,8 @@ billboard_class: billboard-stairs
     of our wonderful parents and siblings.
   </p>
   <div class="row">
-    <div class="col-lg-2"></div>
     {% for family in site.people.families %}
-      <div class="col-lg-4">
+      <div class="{% if forloop.first %} col-lg-offset-1 {% else %} col-lg-offset-2 {% endif %} col-lg-4 col-sm-6">
         <div class="thumbnail thumbnail-portrait">
           <img src="/img/people/optimized/{{ family.pic }}" class="img-thumbnail" alt="{{ family.name }}" title="{{ family.name }}">
           <div class="caption">
@@ -35,7 +34,7 @@ billboard_class: billboard-stairs
         serving as our marriage sponsors.
       </p>
       <p>
-        Cythia and Al Abad
+        Cynthia and Al Abad
         <br>
         Christine and Troy Pilapil
         <br>
@@ -56,9 +55,8 @@ billboard_class: billboard-stairs
     flower girls and ring bearers.
   </p>
   <div class="row">
-    <div class="col-lg-3"></div>
     {% for kid in site.people.kids %}
-      <div class="col-lg-2">
+      <div class="{% if forloop.first %} col-md-offset-2 {% else %} col-md-offset-1 {% endif %} col-md-2 col-sm-4">
         <div class="thumbnail thumbnail-portrait">
           <img src="/img/people/optimized/{{ kid.pic }}" class="img-thumbnail" alt="{{ kid.name }}" title="{{ kid.name }}">
           <div class="caption">
@@ -76,15 +74,38 @@ billboard_class: billboard-stairs
 
 <section class="container content-section text-center">
   <h2>Squad</h2>
-  <div class="row">
+  {% for her in site.people.her_side %}
+    {% assign his = site.people.his_side[forloop.index0] %}
+    <div class="row">
+      <div class="col-sm-3 col-md-offset-1 col-md-3 col-xs-6" style="margin-bottom: 35px">
+        <img class="img-thumbnail img-responsive" src="/img/people/optimized/{{ her.pic }}" alt="{{ her.name }}" title="{{ her.name }}">
+      </div>
+      <p class="col-sm-3 col-md-2 col-xs-6 text-left">
+        {{ her.name }}<br><small>{{ her.role }}</small>
+      </p>
+
+      <div class="clearfix visible-xs-block"></div>
+
+      {% if his %}
+        <p class="col-sm-3 col-md-2 col-xs-6 text-right">
+          {{ his.name }}<br><small>{{ his.role }}</small>
+        </p>
+        <div class="col-sm-3 col-md-3 col-xs-6" style="margin-bottom: 35px">
+          <img class="img-thumbnail img-responsive" src="/img/people/optimized/{{ his.pic }}" alt="{{ his.name }}" title="{{ his.name }}">
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  <!-- <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-lg-4 text-left">
       {% for person in site.people.her_side %}
         <div class="row" style="margin-bottom: 35px">
-          <div class="col-lg-6">
-            <img class="img-thumbnail center-block" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
+          <div class="col-xs-6">
+            <img class="img-thumbnail" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
           </div>
-          <p class="col-lg-6">
+          <p class="col-xs-6">
             {{ person.name }}
             <br>
             <small>{{ person.role }}</small>
@@ -103,10 +124,10 @@ billboard_class: billboard-stairs
             <small>{{ person.role }}</small>
           </p>
           <div class="col-lg-6">
-            <img class="img-thumbnail center-block" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
+            <img class="img-thumbnail" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
           </div>
         </div>
       {% endfor %}
     </div>
-  </div>
+  </div> -->
 </section>
