@@ -5,7 +5,7 @@ billboard_class: billboard-stairs
 ---
 
 <section class="container content-section text-center">
-  <h2>The Families</h2>
+  <h2>Our Families</h2>
   <p>
     We would be nothing if it wasn't for the love and support
     of our wonderful parents and siblings.
@@ -50,7 +50,7 @@ billboard_class: billboard-stairs
 </section>
 
 <section class="container content-section text-center">
-  <h2>The Young Ones</h2>
+  <h2>Little Ones</h2>
   <p>
     We’re so lucky to have such wonderful family to serve as
     flower girls and ring bearers.
@@ -75,14 +75,14 @@ billboard_class: billboard-stairs
 </section>
 
 <section class="container content-section text-center">
-  <h2>The Crew</h2>
+  <h2>Squad</h2>
   <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-lg-4 text-left">
       {% for person in site.people.her_side %}
         <div class="row" style="margin-bottom: 35px">
           <div class="col-lg-6">
-            <img class="img-responsige img-thumbnail" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
+            <img class="img-thumbnail center-block" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
           </div>
           <p class="col-lg-6">
             {{ person.name }}
@@ -103,7 +103,7 @@ billboard_class: billboard-stairs
             <small>{{ person.role }}</small>
           </p>
           <div class="col-lg-6">
-            <img class="img-responsige img-thumbnail" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
+            <img class="img-thumbnail center-block" src="/img/people/optimized/{{ person.pic }}" alt="{{ person.name }}" title="{{ person.name }}">
           </div>
         </div>
       {% endfor %}
