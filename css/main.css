@@ -380,6 +380,7 @@ body {
 .thumbnail.thumbnail-portrait {
     padding: 0;
     border: none;
+    margin-bottom: 0;
 }
 
 .billboard {
