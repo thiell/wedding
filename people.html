@@ -56,7 +56,7 @@ billboard_class: billboard-stairs
   </p>
   <div class="row">
     {% for kid in site.people.kids %}
-      <div class="{% if forloop.first %} col-md-offset-2 {% else %} col-md-offset-1 {% endif %} col-md-2 col-sm-4">
+      <div class="{% if forloop.first %} col-md-offset-2 col-sm-offset-2 {% else %} col-md-offset-1 {% endif %} col-md-2 col-sm-3">
         <div class="thumbnail thumbnail-portrait">
           <img src="/img/people/optimized/{{ kid.pic }}" class="img-thumbnail" alt="{{ kid.name }}" title="{{ kid.name }}">
           <div class="caption">
