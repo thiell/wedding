@@ -77,8 +77,8 @@ billboard_class: billboard-stairs
   {% for her in site.people.her_side %}
     {% assign his = site.people.his_side[forloop.index0] %}
     <div class="row">
-      <div class="col-sm-3 col-md-offset-1 col-md-3 col-xs-6" style="margin-bottom: 35px">
-        <img class="img-thumbnail img-responsive" src="/img/people/optimized/{{ her.pic }}" alt="{{ her.name }}" title="{{ her.name }}">
+      <div class="col-sm-3 col-md-offset-1 col-md-3 col-xs-6" style="margin-bottom: 60px">
+        <img class="img-thumbnail img-responsive" src="/img/people/squares/{{ her.pic }}" alt="{{ her.name }}" title="{{ her.name }}">
       </div>
       <p class="col-sm-3 col-md-2 col-xs-6 text-left">
         {{ her.name }}<br><small>{{ her.role }}</small>
@@ -90,8 +90,8 @@ billboard_class: billboard-stairs
         <p class="col-sm-3 col-md-2 col-xs-6 text-right">
           {{ his.name }}<br><small>{{ his.role }}</small>
         </p>
-        <div class="col-sm-3 col-md-3 col-xs-6" style="margin-bottom: 35px">
-          <img class="img-thumbnail img-responsive" src="/img/people/optimized/{{ his.pic }}" alt="{{ his.name }}" title="{{ his.name }}">
+        <div class="col-sm-3 col-md-3 col-xs-6" style="margin-bottom: 60px">
+          <img class="img-thumbnail img-responsive" src="/img/people/squares/{{ his.pic }}" alt="{{ his.name }}" title="{{ his.name }}">
         </div>
       {% endif %}
     </div>
