@@ -130,6 +130,13 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom.top-nav-collapse .nav li a:focus,
+.navbar-custom.top-nav-collapse .nav li a.active {
+    outline: 0;
+    background-color: rgba(0,0,0,.2);
+}
+
 .navbar-custom {
     border-bottom: 3px solid #AFA63D;
     box-shadow: #888 0px 1px 10px;
