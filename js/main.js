@@ -26,17 +26,26 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+  // Closes the Responsive Menu on Menu Item Click
+  $('.navbar-collapse ul li a').click(function() {
+      $('.navbar-toggle:visible').click();
+  });
+
+  $('nav').on('show.bs.collapse', function(){
+      $(this).addClass('is-expanded');
+  })
+
+  $('nav').on('hide.bs.collapse', function(){
+      $(this).removeClass('is-expanded');
+  })
+
+  // GA Tracking
+  $('.ga-email-nav').click(function(){
+    ga('send', 'event', 'Email Signup', 'Open Form', 'Nav Bar');
+  });
+
+  $('.ga-email-etc-coming-soon').click(function(){
+    ga('send', 'event', 'Email Signup', 'Open Form', 'ETC - Coming Soon');
+  });
 });
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-
-$('nav').on('show.bs.collapse', function(){
-    $(this).addClass('is-expanded');
-})
-
-$('nav').on('hide.bs.collapse', function(){
-    $(this).removeClass('is-expanded');
-})
