@@ -1,10 +1,16 @@
 # Site settings
 title: Chris & Nikita
 email: chris@baclig.me
-url: https://example.github.io
+url: http://www.chrisandnikita.com
 description: "Chris & Nikita"
 baseurl: ""
 host: 0.0.0.0 # listen to LAN connections
+gems:
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 domains:
   chi: www.chrisandnikita.com
@@ -227,7 +233,3 @@ google:
 calendar:
   ical: https://www.google.com/calendar/ical/baclig.com_fqi9g8u7mre0m4oaqj1p66608c%40group.calendar.google.com/public/basic.ics
   google_id: baclig.com_fqi9g8u7mre0m4oaqj1p66608c@group.calendar.google.com
-
-# Build settings
-markdown: kramdown
-permalink: pretty
