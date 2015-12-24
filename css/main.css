@@ -481,6 +481,16 @@ body {
   background-image: url(../img/bridge-walk.jpg);
 }
 
+.billboard-ramp-walk {
+  background-position: center center;
+  background-image: url(../img/ramp-walk.jpg);
+}
+
+.billboard-river-smile {
+  background-position: center center;
+  background-image: url(../img/river-smile.jpg);
+}
+
 @media(min-width:767px) {
   .billboard-wall {
     background-position: center -170px;
@@ -493,6 +503,9 @@ body {
   .billboard-stairs {
     background-position: center -185px;
   }
+
+  .billboard-ramp-walk {
+    background-position: center -190px;
 }
 
 .floating-info {
