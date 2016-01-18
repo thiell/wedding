@@ -34,7 +34,7 @@ $(function() {
   };
 
   var markNotificationAsRead = function(){
-    document.cookie = NOTIFICATION_COOKIE + '=' + '1';
+    document.cookie = NOTIFICATION_COOKIE + '=1;max-age=99999;path=/';
     toggleNotificationIcon(false);
   }
 
