@@ -536,11 +536,11 @@ body {
   color: #8D5F9E;
 }
 
-.navbar-custom.top-nav-collapse .notification-link .notification-link--icon {
+.notification-link .notification-link--icon {
   display: none;
 }
 
-.navbar-custom.top-nav-collapse .notification-link.notify .notification-link--icon {
+.notification-link.notify .notification-link--icon {
   display: block;
   position: absolute;
   top: 10px;
