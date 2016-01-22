@@ -54,6 +54,12 @@ locations:
     address2: Chicago, IL 60603
     coordinates: 41.8807816,-87.631112
     google_maps_url: https://www.google.com/maps/place/Hyatt+Centric+The+Loop+Chicago/@41.8807816,-87.631112,15z/data=!4m2!3m1!1s0x0:0xc98ca00ba03f886e?sa=X&ved=0ahUKEwiXxLXTlsjJAhXn4IMKHXNAD2oQ_BIIgAEwCg
+  renaissance: &renaissance_location
+    location_name: Renaissance Long Beach
+    address1: 111 E. Ocean Blvd
+    address2: Long Beach, CA 90802
+    coordinates: TODO
+    google_maps_url: TODO
 
 hotels:
   chi:
@@ -71,11 +77,11 @@ hotels:
       <<: *hyatt_location
   lbc:
     - name: Renaissance Long Beach
-      phone: +1-111-111-1111
-      reserve_url: https://todo.com
+      phone: +1-800-266-9432
+      reserve_url: https://resweb.passkey.com/go/bacligwedding
       rate: $000/night
       description: TODO
-      <<: *hyatt_location
+      <<: *renaissance_location
 
 events:
   chi:
