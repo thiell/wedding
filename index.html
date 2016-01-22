@@ -11,9 +11,15 @@ invisible_nav: true
                 <div class="col-md-10 col-md-offset-2">
                     <h1 class="brand-heading">Chris & Nikita</h1>
                     <p class="intro-text">
-                      Memorial Day Weekend 2016
-                      <br>
-                      Chicago, Illinois
+                      {% if site.host == site.domains.lbc %}
+                        June 4, 2016
+                        <br>
+                        Long Beach, California
+                      {% else %}
+                        Memorial Day Weekend 2016
+                        <br>
+                        Chicago, Illinois
+                      {% endif %}
                       <br>
                     </p>
                 </div>

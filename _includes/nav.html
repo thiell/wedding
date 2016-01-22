@@ -32,12 +32,14 @@
                     <li class="{% if page.url == '/etc/' %}active{% endif %}">
                       <a href="/etc">Etc</a>
                     </li>
-                    <li class="notification-link">
-                      <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
-                        <i class="fa fa-exclamation-circle notification-link--icon"></i>
-                        Updates
-                      </a>
-                    </li>
+                    {% if site.host == site.domains.chi %}
+                        <li class="notification-link">
+                          <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
+                            <i class="fa fa-exclamation-circle notification-link--icon"></i>
+                            Updates
+                          </a>
+                        </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -15,6 +15,7 @@ permalink: pretty
 domains:
   chi: www.chrisandnikita.com
   lbc: www.chrisandnikita-la.com
+  # lbc: 0.0.0.0
 
 locations:
   hilton: &hilton_location
@@ -55,18 +56,26 @@ locations:
     google_maps_url: https://www.google.com/maps/place/Hyatt+Centric+The+Loop+Chicago/@41.8807816,-87.631112,15z/data=!4m2!3m1!1s0x0:0xc98ca00ba03f886e?sa=X&ved=0ahUKEwiXxLXTlsjJAhXn4IMKHXNAD2oQ_BIIgAEwCg
 
 hotels:
-  - name: Hilton Chicago
-    phone: +1-312-922-4400
-    reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
-    rate: $229/night
-    description: Includes continental breakfast each night
-    <<: *hilton_location
-  - name: Hyatt Centric
-    phone: +1-312-236-1234
-    reserve_url: https://aws.passkey.com/g/54381507
-    rate: $199/night
-    description: Centrally located in the middle of the loop
-    <<: *hyatt_location
+  chi:
+    - name: Hilton Chicago
+      phone: +1-312-922-4400
+      reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+      rate: $229/night
+      description: Includes continental breakfast each night
+      <<: *hilton_location
+    - name: Hyatt Centric
+      phone: +1-312-236-1234
+      reserve_url: https://aws.passkey.com/g/54381507
+      rate: $199/night
+      description: Centrally located in the middle of the loop
+      <<: *hyatt_location
+  lbc:
+    - name: Renaissance Long Beach
+      phone: +1-111-111-1111
+      reserve_url: https://todo.com
+      rate: $000/night
+      description: TODO
+      <<: *hyatt_location
 
 events:
   chi:

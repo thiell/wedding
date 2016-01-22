@@ -2,36 +2,16 @@
   <div class="row">
     <div class="col-lg-offset-2 col-lg-8">
       <h2>Where to Stay</h2>
-      <!-- <p>
-        We have a room block at the Hilton Chicago, which is where Friday and
-        Saturday's events will take place.
-      </p>
       <p>
-        <strong>
-          Please note - rooms are only available through our room block for the following nights:
-          <br>
-          Thursday, May 26
-          <br>
-          Friday, May 27
-          <br>
-          Saturday, May 28
-          <br>
-          Sunday, May 29
-        </strong>
-      </p>
-      <p>
-        The reservation links below will only allow you to book rooms for the above nights.
-        If you'd like to stay for any nights other than the ones listed, please call the hotel directly and
-        reference the <em>Vashi-Baclig wedding</em>.
+        We have a block of rooms nearby for anyone that wants to spend the night in Long Beach.
       </p>
       <div class="row">
-        {% for hotel in site.hotels %}
-          <div class="{% cycle 'col-sm-offset-3', '' %} col-sm-6 ">
+        {% for hotel in site.hotels.lbc %}
+          <div class="col-lg-offset-3 col-sm-6 ">
             {% include hotel_thumbnail.html hotel=hotel %}
           </div>
         {% endfor %}
-
-      </div> -->
+      </div>
     </div>
   </div>
 </section>

@@ -74,12 +74,11 @@
         reference the <em>Vashi-Baclig wedding</em>.
       </p>
       <div class="row">
-        {% for hotel in site.hotels %}
+        {% for hotel in site.hotels.chi %}
           <div class="col-sm-6 ">
             {% include hotel_thumbnail.html hotel=hotel %}
           </div>
         {% endfor %}
-
       </div>
     </div>
   </div>
