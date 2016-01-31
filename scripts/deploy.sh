@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Exit if anything goes wrong
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
 GITHUB_PAGES_BRANCH="gh-pages"
 
 CHI_BRANCH="gh-pages"
@@ -80,6 +85,9 @@ if [ $? -ne 0 ]; then
   echo "Couldn't marge $CHI_BRANCH into $LBC_BRANCH - aborting!"
   exit 1
 fi
+
+sed -i '' 's/^context: chi$/context: lbc/g' _config.yml
+git commit -am "Updating context (via deploy.sh)"
 
 git push $LBC_REMOTE_NAME $LBC_BRANCH:$GITHUB_PAGES_BRANCH
 
