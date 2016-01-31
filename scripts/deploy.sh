@@ -41,6 +41,11 @@ if [[ `git br | grep $CHI_BRANCH | wc -l` -eq 0 ]]; then
 fi
 
 git checkout $CHI_BRANCH
+if [ $? -ne 0 ]; then
+  echo "Can't check out $CHI_BRANCH - aborting!"
+  exit 1
+fi
+
 git push $CHI_REMOTE_NAME $CHI_BRANCH:$GITHUB_PAGES_BRANCH
 
 log "Done with Chicago version!"
@@ -55,6 +60,10 @@ fi
 
 log "git checkout $LBC_BRANCH"
 git checkout $LBC_BRANCH
+if [ $? -ne 0 ]; then
+  echo "Can't check out $LBC_BRANCH - aborting!"
+  exit 1
+fi
 
 if [ `cat CNAME` != $LBC_HOST ]; then
   log "Updating CNAME file on $LBC_BRANCH..."
