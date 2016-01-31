@@ -8,7 +8,7 @@ CHI_REMOTE_URL="git@github.com:cbaclig/wedding.git"
 
 LBC_BRANCH="lbc"
 LBC_REMOTE_NAME="lbc"
-LBC_REMOTE_URL="git@github.com:cbaclig/wedding-lb.git"
+LBC_REMOTE_URL="git@github.com:cbaclig/wedding-la.git"
 LBC_HOST="www.chrisandnikita-la.com"
 
 CNAME_FILE="CNAME"
@@ -41,7 +41,6 @@ if [[ `git br | grep $CHI_BRANCH | wc -l` -eq 0 ]]; then
 fi
 
 git checkout $CHI_BRANCH
-# echo "git push $CHI_REMOTE_NAME $CHI_BRANCH:$GITHUB_PAGES_BRANCH"
 git push $CHI_REMOTE_NAME $CHI_BRANCH:$GITHUB_PAGES_BRANCH
 
 log "Done with Chicago version!"
@@ -67,7 +66,6 @@ if [ `cat CNAME` != $LBC_HOST ]; then
   log "Done updating CNAME file on $LBC_BRANCH"
 fi
 
-# log "git push $LBC_REMOTE_NAME $LBC_BRANCH:$GITHUB_PAGES_BRANCH"
 git push $LBC_REMOTE_NAME $LBC_BRANCH:$GITHUB_PAGES_BRANCH
 
 log "Done with Long Beach version!"
