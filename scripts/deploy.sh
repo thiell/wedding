@@ -47,8 +47,18 @@ fi
 
 git checkout $CHI_BRANCH
 if [ $? -ne 0 ]; then
-  echo "Can't check out $CHI_BRANCH - aborting!"
+  log "Can't check out $CHI_BRANCH - aborting!"
   exit 1
+fi
+
+log "Checking that context is set to chi in _config.yml..."
+
+if [[ `grep -q "^context: *chi *$" _config.yml | wc -l` -eq 0 ]]; then
+  log "Context is already set to chi!"
+else 
+  log "Context is not set to chi. Updating it now..."
+  sed -i '' 's/^context:.*$/context: chi/g' _config.yml
+  git commit -am "Updating context to chi (via deploy.sh)"
 fi
 
 git push $CHI_REMOTE_NAME $CHI_BRANCH:$GITHUB_PAGES_BRANCH
@@ -66,7 +76,7 @@ fi
 log "git checkout $LBC_BRANCH"
 git checkout $LBC_BRANCH
 if [ $? -ne 0 ]; then
-  echo "Can't check out $LBC_BRANCH - aborting!"
+  log "Can't check out $LBC_BRANCH - aborting!"
   exit 1
 fi
 
@@ -82,12 +92,16 @@ fi
 
 git merge $CHI_BRANCH -m "Merging $CHI_BRANCH INTO $LBC_BRANCH (via deploy.sh)"
 if [ $? -ne 0 ]; then
-  echo "Couldn't marge $CHI_BRANCH into $LBC_BRANCH - aborting!"
+  log "Couldn't marge $CHI_BRANCH into $LBC_BRANCH - aborting!"
   exit 1
 fi
 
+log "Updating context to lbc in _config.yml..."
+
 sed -i '' 's/^context: chi$/context: lbc/g' _config.yml
-git commit -am "Updating context (via deploy.sh)"
+git commit -am "Updating context to lbc (via deploy.sh)"
+
+log "Done updating context to lbc in _config.yml!"
 
 git push $LBC_REMOTE_NAME $LBC_BRANCH:$GITHUB_PAGES_BRANCH
 
