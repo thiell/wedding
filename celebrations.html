@@ -3,13 +3,7 @@ layout: info
 title: Celebrations
 billboard_class: billboard-stairs
 ---
-{% if site.host == site.domains.lbc %}
-  {% assign context = "lbc" %}
-{% else %}
-  {% assign context = "chi" %}
-{% endif %}
-
-{% for event in site.events[context] %}
+{% for event in site.events[site.context] %}
   <section class="container content-section {% cycle 'text-left', 'text-right' %}">
     <div class="row">
       <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">

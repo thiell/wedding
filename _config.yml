@@ -12,10 +12,10 @@ gems:
 markdown: kramdown
 permalink: pretty
 
-domains:
-  chi: www.chrisandnikita.com
-  lbc: www.chrisandnikita-la.com
-  # lbc: 0.0.0.0
+# Possible values
+# `chi` - Chicago
+# `lbc` - Long Beach
+context: chi
 
 locations:
   hilton: &hilton_location

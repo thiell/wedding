@@ -32,7 +32,7 @@
                     <li class="{% if page.url == '/etc/' %}active{% endif %}">
                       <a href="/etc">Etc</a>
                     </li>
-                    {% if site.host == site.domains.chi %}
+                    {% if site.context == "chi" %}
                         <li class="notification-link">
                           <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
                             <i class="fa fa-exclamation-circle notification-link--icon"></i>
