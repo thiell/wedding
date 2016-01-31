@@ -100,7 +100,7 @@ log "Updating context to lbc in _config.yml..."
 
 sed -i '' 's/^context: *chi *$/context: lbc/g' _config.yml
 
-if git diff-index --exit-code --quiet HEAD; then
+if git diff-index --exit-code --quiet HEAD -- config.yml; then
   log "No changes to context needed in _config.yml"
 else
   log "Commiting changes made to context in _config.yml"
