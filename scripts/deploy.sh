@@ -98,8 +98,14 @@ fi
 
 log "Updating context to lbc in _config.yml..."
 
-sed -i '' 's/^context: chi$/context: lbc/g' _config.yml
-git commit -am "Updating context to lbc (via deploy.sh)"
+sed -i '' 's/^context: *chi *$/context: lbc/g' _config.yml
+
+if git diff-index --exit-code --quiet $CHI_BRANCH; then
+  log "No changes to context needed in _config.yml"
+else
+  log "Commiting changes made to context in _config.yml"
+  git commit -am "Updating context to lbc (via deploy.sh)"  
+fi
 
 log "Done updating context to lbc in _config.yml!"
 
