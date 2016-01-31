@@ -75,6 +75,12 @@ if [ `cat CNAME` != $LBC_HOST ]; then
   log "Done updating CNAME file on $LBC_BRANCH"
 fi
 
+git merge $CHI_BRANCH
+if [ $? -ne 0 ]; then
+  echo "Couldn't marge $CHI_BRANCH into $LBC_BRANCH - aborting!"
+  exit 1
+fi
+
 git push $LBC_REMOTE_NAME $LBC_BRANCH:$GITHUB_PAGES_BRANCH
 
 log "Done with Long Beach version!"
