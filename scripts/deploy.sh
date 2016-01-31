@@ -75,7 +75,7 @@ if [ `cat CNAME` != $LBC_HOST ]; then
   log "Done updating CNAME file on $LBC_BRANCH"
 fi
 
-git merge $CHI_BRANCH
+git merge $CHI_BRANCH -m "Merging $CHI_BRANCH INTO $LBC_BRANCH (via deploy.sh)"
 if [ $? -ne 0 ]; then
   echo "Couldn't marge $CHI_BRANCH into $LBC_BRANCH - aborting!"
   exit 1
