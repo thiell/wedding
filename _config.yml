@@ -67,7 +67,7 @@ hotels:
       phone: +1-312-922-4400
       reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
       rate: $229/night
-      description: Includes continental breakfast each night
+      description: Includes continental breakfast each morning
       <<: *hilton_location
     - name: Hyatt Centric
       phone: +1-312-236-1234
