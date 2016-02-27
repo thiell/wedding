@@ -27,14 +27,19 @@ billboard_class: billboard-stairs
           <dl class="col-xs-4 text-right">
             <dt>Attire</dt>
             <dd>{{ event.attire }}</dd>
-
-            <!-- <dt>Transportation</dt>
-            <dd>{{ event.transportation }}</dd> -->
           </dl>
 
         </div>
 
         <p>{{ event.description }}</p>
+        
+        {% if event.transportation %}
+          <p><em>{{ event.transportation }}</em></p>
+        {% endif %}
+
+        {% if event.shuttle %}
+          <p><em>{{ event.shuttle }}</em></p>
+        {% endif %}
 
       </div>
     </div>

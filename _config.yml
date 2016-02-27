@@ -97,28 +97,30 @@ events:
       time: 7pm
       attire: Semi-formal
       description: A night of traditional Gujarati folk dancing! Set to energetic music, garba is a style of group dance performed as a ritual homage to a the Hindu goddess of creation, Ambama. Garba is usually accompanied by Raas, a similar style of dance dedicated to the Hindu god Krishna that incorporates a set of sticks called Dandiya. Both are traditionally performed during the Gujarati festival of Navratri (“nine-nights”) and also as a precedent to special occasions such as weddings. Everyone is invited and encourage to join in the dancing - don’t worry, there will be tutorials!  And keep an eye out for a few special performances from close family and friends.
-      transportation:
+      transportation: Discounted self-parking will be available.
       <<: *hilton_location
     - name: Hindu Wedding
       date: Saturday, May 28, 2016
       time: 10am
       attire: Formal
       description: The Hindu wedding ceremony as described by the Vedas, the Hindu scriptures, is over 5,000 years old and is traditionally performed in the Sanskrit language. The ceremony commemorates the bride and groom no longer existing as two independent souls but as a spiritual oneness. Ceremonies include the Barat (Arrival of the Groom), Pokhna Vidhi (Welcoming of the Groom), Jai Mala (Exchange of Garlands), Vastra Granthi Bandhan (Tying the Knot), Mangalphera (Holy Circles around the Fire), and Saptapadi (Taking Life’s Seven Steps).
-      transportation:
+      transportation: Discounted self-parking will be available.
       <<: *hilton_location
     - name: Catholic Wedding
       date: Sunday, May 29, 2016
       time: 3pm
       attire: Black Tie Optional
       description: The traditional Catholic wedding is enhanced in Filipino culture by several traditions. Ceremonial sponsors or godparents are chosen by the betrothed as role models for their future married life and participate in the procession with the bridal party. Two separate candles are lit at the beginning of the ceremony, which the bride and groom then join into a single flame signifying the union of their two families. A veil is placed over the shoulders of the bride and groom during the ceremony, demonstrating the clothing of two individuals as one. A cord is then looped in a figure 8 and placed over the heads of the bride and group to signify everlasting fidelity.
-      transportation:
+      transportation: Limited self-parking available. 
+      shuttle: Transportation will also be provided between Hilton Chicago and St. Michael in Old Town.
       <<: *st_michael_location
     - name: Reception
       date: Sunday, May 29, 2016
       time: 5:30pm
       attire: Black Tie Optional
       description: Join us for dinner and dancing as we celebrate our marriage into the night!
-      transportation:
+      transportation: Complimentary valet parking will be available at Navy Pier. Follow signs for Navy Pier parking to the East Parking garage, entrance two. 
+      shuttle: Transportation will also be provided between St. Michael in Old Town, Navy Pier and Hilton Chicago.
       <<: *navy_pier_location
   lbc:
     - name: Reception
