@@ -26,18 +26,34 @@ billboard_class: billboard-bridge-walk
     <div class="col-lg-12">
       <h2>Registry</h2>
       <p>
-        We're registered at 
-        <a href="http://www.bloomingdales.com/registry/wedding/guest/?registryId=6500999" target="_blank">Bloomingdales</a>, 
+        We're registered at
+        <a href="http://www.bloomingdales.com/registry/wedding/guest/?registryId=6500999" target="_blank">Bloomingdales</a>,
         <a href="http://www.crateandbarrel.com/gift-registry/chris-baclig-and-nikita-vashi/r5456165" target="_blank">Crate & Barrel</a>
-        and 
+        and
         <a href="http://www1.macys.com/registry/wedding/guest/?registryId=6501010" target="_blank">Macy's</a>.
         <br>
-        See everything in one place at 
+        See everything in one place at
         <a href="http://registered.at/chrisandnikita" target="_blank">registered.at/chrisandnikita</a>
       </p>
     </div>
   </div>
 </section>
+
+{% if site.faq[site.context] %}
+  <section class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>FAQ</h2>
+        <dl>
+          {% for one in site.faq[site.context] %}
+            <dt><p><strong>{{ one.question }}</strong></p></dt>
+            <dd><p>{{ one.answer }}</p></dd>
+          {% endfor %}
+        </dl>
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 {% if site.context == "chi" %}
   <section class="container content-section text-center">
@@ -56,4 +72,3 @@ billboard_class: billboard-bridge-walk
     </div>
   </section>
 {% endif %}
-

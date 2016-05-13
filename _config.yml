@@ -111,7 +111,7 @@ events:
       time: 3pm
       attire: Black Tie Optional
       description: The traditional Catholic wedding is enhanced in Filipino culture by several traditions. Ceremonial sponsors or godparents are chosen by the betrothed as role models for their future married life and participate in the procession with the bridal party. Two separate candles are lit at the beginning of the ceremony, which the bride and groom then join into a single flame signifying the union of their two families. A veil is placed over the shoulders of the bride and groom during the ceremony, demonstrating the clothing of two individuals as one. A cord is then looped in a figure 8 and placed over the heads of the bride and group to signify everlasting fidelity.
-      transportation: Limited self-parking available. 
+      transportation: Limited self-parking available.
       shuttle: Transportation will also be provided between Hilton Chicago and St. Michael in Old Town.
       <<: *st_michael_location
     - name: Reception
@@ -119,7 +119,7 @@ events:
       time: 5:30pm
       attire: Black Tie Optional
       description: Join us for dinner and dancing as we celebrate our marriage into the night!
-      transportation: Complimentary valet parking will be available at Navy Pier. Follow signs for Navy Pier parking to the East Parking garage, entrance two. 
+      transportation: Complimentary valet parking will be available at Navy Pier. Follow signs for Navy Pier parking to the East Parking garage, entrance two.
       shuttle: Transportation will also be provided between St. Michael in Old Town, Navy Pier and Hilton Chicago.
       <<: *navy_pier_location
   lbc:
@@ -243,6 +243,45 @@ people:
       pic: dare.jpg
       role: Groomsman
       description: Chris’ Post-College  Roommate
+faq:
+  # TODO pre-line for dd's
+  chi:
+    - question: OMG what do I wear?
+      answer: | The Garba night on Friday is primarily a night of Indian folk dancing, so be prepared to kick off your shoes, roll up your sleeves and get a light aerobic workout in!
+        Ladies: ???
+        Gentelmen: Think dress pants and a button-down shirt. Consider the jacket and tie optional.
+
+        The Indian wedding ceremony on Saturday will be considerably less active (but will still include some dancing during the Baraat!) and is a more formal occassion.
+        Ladies: ???
+        Gentlemen: Break out the jacket and tie for this one, and thanks in advance for dealing with the midday heat!
+
+        The Catholic ceremony and reception on Sunday will be a little more formal than Saturday's events.
+        Ladies: ???
+        Gentlemen: Jacket and ties are encouraged. For those with a tuxedo, this would be a good time to dust that off too, but it's by no means required to get past the bouncers (There won't be any bouncers.)
+
+    - question: Do you have a sari I can borrow?
+      answer: |
+        Unfortunately, Nikita doesn't have anything else to lend out. :(
+    - question: I have a pretty seriously allergy to [insert allergen here], can you accomodate me?
+      answer: Yes! Get in touch with us ASAP, so we can make sure we keep any [insert allergen here] away from you!
+    - question: Should I rent a car?
+      answer: |
+        No! For those guests coming from out of town, we will be providing transportation to and from all the events and the hotels. Even if you're staying somewhere else or want to explore more of the city, we'd highly recommend taking public transportation or cabs around downtown Chicago since parking in the city is hard to find and typically not cheap.
+
+        Check out our section on <a href="/details/#getting-around">Getting Around</a> for more info.
+    - question: What's happening Saturday night and Sunday morning?
+      answer: Nothing! There are a lot of things going on during the weekend, so consider this half-time. Feel free to explore Chicago at your own pace, and rest up before the home stretch.
+    - question: Is Chris going to ride in on a/an [insert large mammal here]?
+      answer: |
+        No, unless you're asking if Chris is going to ride a horse.
+        Then the answer is yes - Chris is going to ride in on a white horse at
+        the Baraat on Saturday.
+    - question: Do I have to dance at the Garba?
+      answer: No! Although we have a feeling you're going to want to once you see everyone doing it. Peer pressure is a real thing.
+    - question: What kind of sick moves am I going to learn on Friday night?
+      answer: ???
+
+  lbc: false
 
 google:
   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
