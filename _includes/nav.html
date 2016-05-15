@@ -29,6 +29,11 @@
                     <li class="{% if page.url == '/details/' %}active{% endif %}">
                         <a href="/details">Details</a>
                     </li>
+                    {% if site.faq[site.context] %}
+                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
+                        <a href="/faq">FAQ</a>
+                      </li>
+                    {% endif %}
                     <li class="{% if page.url == '/etc/' %}active{% endif %}">
                       <a href="/etc">Etc</a>
                     </li>

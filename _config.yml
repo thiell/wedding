@@ -247,39 +247,47 @@ faq:
   # TODO pre-line for dd's
   chi:
     - question: OMG what do I wear?
-      answer: | The Garba night on Friday is primarily a night of Indian folk dancing, so be prepared to kick off your shoes, roll up your sleeves and get a light aerobic workout in!
-        Ladies: ???
-        Gentelmen: Think dress pants and a button-down shirt. Consider the jacket and tie optional.
+      answer: |
+        The Garba night on Friday is primarily a night of Indian folk dancing, so be prepared to kick off your shoes, roll up your sleeves and get a light aerobic workout in!
+
+        <strong>Ladies</strong>: While Indian clothing is entirely appropriate, it's definitely not necessary! A colorful dress or skirt and top works well - it doesn't have to be super fancy. Avoid wearing black or white if you can. If you have something Indian or are planning on buying/borrowing, I would suggest a simple <a href="https://www.google.com/search?q=salwar+kameez&espv=2&biw=1440&bih=801&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwikz62d5NzMAhUB3IMKHXPABVUQsAQIGw">Salwar Kameez</a> or <a href="https://www.google.com/search?q=lehenga&espv=2&biw=1440&bih=801&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj1h8Ot5NzMAhWF7IMKHTBCBxAQ_AUIBigB">Lehenga</a>.
+        <strong>Gentelmen</strong>: Think dress pants and a button-down shirt. Consider the jacket and tie optional.
 
         The Indian wedding ceremony on Saturday will be considerably less active (but will still include some dancing during the Baraat!) and is a more formal occassion.
-        Ladies: ???
-        Gentlemen: Break out the jacket and tie for this one, and thanks in advance for dealing with the midday heat!
+
+        <strong>Ladies</strong>: For this event, wear what you would wear to a more formal wedding. Again, Indian clothing is appropriate but not required.  However, if you were going to pick one event to wear that outfit you borrowed from your Indian friend, this would be it. If you're going with American attire, formal cocktail dresses and evening wear is most appropriate. Again, try to avoid wearing white, black, or red (usually worn by the bride). If you're wearing something Indian, a more formal lehenga (see above) works, but this would also be a great opportunity to wear a <a href="https://www.google.com/search?q=lehenga&espv=2&biw=1440&bih=801&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj1h8Ot5NzMAhWF7IMKHTBCBxAQ_AUIBigB#tbm=isch&q=sari">sari</a>. Keep in mind that a sari is a challenge to put on, so if you do decide to go this route, keep your eyes open for an email about where/when to meet on Saturday morning to get some assistance tying your sari!
+        <strong>Gentlemen</strong>: Break out the jacket and tie for this one, and thanks in advance for dealing with the midday heat!
 
         The Catholic ceremony and reception on Sunday will be a little more formal than Saturday's events.
-        Ladies: ???
-        Gentlemen: Jacket and ties are encouraged. For those with a tuxedo, this would be a good time to dust that off too, but it's by no means required to get past the bouncers (There won't be any bouncers.)
+
+        <strong>Ladies</strong>: Wear your formal evening wear!  If you've got a full-length gown hanging in the back of your closet, this would be a great opportunity to break it out. No color restrictions here (except maybe not white - don't want to be confused for the bride!). At some Indian events, the guests have time to change outfits before the reception, however there won't be time for a costume change at our event so plan on wearing your dress/gown all night.
+        <strong>Gentlemen</strong>: Jacket and ties are encouraged. For those with a tuxedo, this would be a good time to dust that off too, but it's by no means required to get past the bouncers (There won't be any bouncers.)
 
     - question: Do you have a sari I can borrow?
       answer: |
-        Unfortunately, Nikita doesn't have anything else to lend out. :(
-    - question: I have a pretty seriously allergy to [insert allergen here], can you accomodate me?
-      answer: Yes! Get in touch with us ASAP, so we can make sure we keep any [insert allergen here] away from you!
+        Maybe! Nikita has already doled out many of her Indian outfits, but if you're still interested shoot her an email (nvashi25@gmail.com) and she'll check.
+    - question: |
+        I have a pretty seriously allergy to [insert allergen here], can you accomodate me?
+      answer: |
+        Yes! Get in touch with us ASAP, so we can make sure we keep any [insert allergen here] away from you!
     - question: Should I rent a car?
       answer: |
         No! For those guests coming from out of town, we will be providing transportation to and from all the events and the hotels. Even if you're staying somewhere else or want to explore more of the city, we'd highly recommend taking public transportation or cabs around downtown Chicago since parking in the city is hard to find and typically not cheap.
 
         Check out our section on <a href="/details/#getting-around">Getting Around</a> for more info.
     - question: What's happening Saturday night and Sunday morning?
-      answer: Nothing! There are a lot of things going on during the weekend, so consider this half-time. Feel free to explore Chicago at your own pace, and rest up before the home stretch.
+      answer: |
+        Nothing! There will be lunch served directly after the Hindu ceremony on Saturday, but after that, you're free! There are a lot of things going on in Chicago that weekend, so consider this half-time. Feel free to explore the city at your own pace, and rest up before the home stretch.
     - question: Is Chris going to ride in on a/an [insert large mammal here]?
       answer: |
-        No, unless you're asking if Chris is going to ride a horse.
-        Then the answer is yes - Chris is going to ride in on a white horse at
-        the Baraat on Saturday.
+        No, unless you're asking if Chris is going to ride a horse. Then the answer is yes - Chris is going to ride in on a white horse at the Baraat on Saturday.
     - question: Do I have to dance at the Garba?
       answer: No! Although we have a feeling you're going to want to once you see everyone doing it. Peer pressure is a real thing.
     - question: What kind of sick moves am I going to learn on Friday night?
-      answer: ???
+      answer: Friday night will consist of garba and raas, two different styles of Indian dance. Garba is a repetitive, circular group dance (think electric slide, but in a circle). Raas is a partner dance (don't worry - we'll find you all partners!) with sticks that happens in long rotating lines.  I know this sounds complex, but we'll be hosting tutorials on Friday night and will have plenty of people circulating to answer any questions about the dance.  And, for those of you with some dance anxiety, there will be an open bar :)
+    - question: I heard you're moving!  Where and when?
+    - answer: We are!  We're moving to Seattle directly after the wedding so Nikita can start her internal medicine residency at University of Washington, so we're extremely excited to spend this last epic Chicago weekend with you all :)
+
 
   lbc: false
 
