@@ -39,11 +39,21 @@ billboard_class: billboard-bridge-walk
   </div>
 </section>
 
-{% if site.context == "chi" %}
+{% if site.guide[site.context] %}
   <section class="container content-section text-center">
     <div class="row">
       <div class="col-lg-12">
         <h2>City Guide</h2>
+        {% for section in site.guide[site.context] %}
+          <h3>{{ section[0] }}</h3>
+          {% for one in section[1] %}
+            <p>
+              <strong>{{ one.title }}</strong>
+              <br>
+              {{ one.description}}
+            </p>
+          {% endfor %}
+        {% endfor %}
         <p>
           Coming soon(ish!)
           <br>

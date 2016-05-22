@@ -244,7 +244,6 @@ people:
       role: Groomsman
       description: Chris’ Post-College  Roommate
 faq:
-  # TODO pre-line for dd's
   chi:
     - question: OMG what do I wear?
       answer: |
@@ -288,6 +287,57 @@ faq:
     - question: I heard you're moving!  Where and when?
     - answer: We are!  We're moving to Seattle directly after the wedding so Nikita can start her internal medicine residency at University of Washington, so we're extremely excited to spend this last epic Chicago weekend with you all :)
 
+  lbc: false
+
+guide:
+  chi:
+    explore:
+      - title: Millenium Park & Cloud Gate
+        description: While lots of visitors come to see "The Bean," there's a lot more to see at Millenium Park including giant screens of people spitting on you (yes, that's a real thing), the Lurie Garden and Pritker Pavillion. And while you're there, it might also be a good time to cross the street and check out...
+      - title: Maggie Daley Park
+        description: This park just opened a few years ago, and is a must-see for kids with a large porition of it dedicated to play areas for children. While the ice skating ribbon is popular in the winter, there are also rock climbing walls and tennis courts to keep you busy in the summer moths.
+      - title: Grant Park & Buckingham Fountain
+        description: Stretching from just south of Navy Pier all the way to Museum Campus, don't be surprised to see one or two events going on at any given time. If you're staying anywhere in the loop and looking for some exercise, you won't be alone walking or jogging around the park at any time of day either. And don't forget to check out Buckingham Fountain as well, another iconic Chicago landmark.
+      - title: River Boat Architecture Tour
+        description: Another must-do for anyone visiting Chicago! Enjoy views of the city's sky scrapers and learning about the Chicago history while cruising down the Chicago River. There are a few companies that offer architecture cruises, but our favorite is the one run by the Chicago Architecture Foundation on Chicago's First Lady.
+      - title: Navy Pier
+        description: Yes, the reception on Sunday is going to be at the Navy Pier Ballroom, but there's so much more to do! Memorial day weekend just happens to be the grand opening of the new-and-improved Ferris Wheel along with the beginning of the summer seasono on the pier. For the kids, there are rides, games, laser tag, a children's museum and more.
+      - title: Magnificent Mile
+        description: If your idea of a good time is shopping 'til you drop, then this is the place for you. Starting at the river and running all the way down Michigan Avenue until Oak Street is almost every store you could imagine. The John Hancock building also sits on the north end of Michigan Ave. if you need a break from spending all that dough.
+      - title: Lincoln Park Zoo
+        description: While not really walking distance from the Loop, if you make it out to Linoln Park you won't be disappointed. The Lincoln Park neighborhood has has a ton of restaurants and shops that you can spend an entire day exploring. The highlight of the park is the zoo, which is free to the public and has monkeys, tigers, giraffes and more!
+      - title: John Hancock Center
+        description: The fourth tallest building in Chicago, there are a few restaurants and stores on the ground level, but the real sights to see are on 94th floor at the 360˚ Chicago obersvation deck where, you guessed it, you can get a 360 degree view of the city. And for those that need a little more exictement in their life, you can check out Tilt, which will lean you out the base of the building 30 degrees to see eveything straight to the bottom.
+      - title: Willis Tower
+        description: Even though all cool kids call it Sears Tower, that doesn't change the fact that it's still the tallest building in Chicago. Similar to the John Hancock, The Sky Deck on the 103rd floor of Willis Tower also gives a 360 degree view of the city from the southern part of the Loop. The Ledge in the Sky Deck takes Tilt one step further and actually puts you in a glass balcony letting you stare straight past your feed to the sidewalk below.
+      - title: The Second City
+        description: Don't let the name fool you - The Second City is a legendary improv and comedy club that's been the starting point for some of the world's greatest comedians, both past and present. You can catch a stand-up comedy show or watch one of the many improv shows they put on throught the week.
+    food:
+      - title: Deep Dish Pizza
+      - title: Italian Beef
+      - title: Steakhouses
+      - title: Eataly
+      - title: Fontera Grill/Xoco/Tompalobompo
+      - title: Girl and the Goat/Little Goat/Duck Duck Goat
+      - title: Alinea/Next/Grace
+      - title: Au Cheval
+      - title: Big Star
+    drinks:
+      - title: The Aviary
+      - title: Rooftops
+      - title: Pops for Champgne/Watershed
+      - title: Rock Bottom
+      - title: Social 25
+      - title: Wrigleyville
+      - title: Goose Island
+      - title: Revolution
+      - title: Lagunitas
+    museums:
+      - title: Shedd Aquarium
+      - title: Art Institue
+      - title: Adler Planetarium
+      - title: Museum of Science and Industry
+      - title: Field Museum
 
   lbc: false
 
