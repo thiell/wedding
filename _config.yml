@@ -293,13 +293,13 @@ guide:
   chi:
     explore:
       - title: Millenium Park & Cloud Gate
-        description: While lots of visitors come to see "The Bean," there's a lot more to see at Millenium Park including giant screens of people spitting on you (yes, that's a real thing), the Lurie Garden and Pritker Pavillion. And while you're there, it might also be a good time to cross the street and check out...
+        description: While lots of visitors come to see "The Bean," there's a lot more to see at Millenium Park including giant screens of people spitting on you (yes, that's a real thing), the Lurie Garden and Pritker Pavillion. And while you're there, it might also be a good time to cross the street and check out Maggie Daley Park.
       - title: Maggie Daley Park
         description: This park just opened a few years ago, and is a must-see for kids with a large porition of it dedicated to play areas for children. While the ice skating ribbon is popular in the winter, there are also rock climbing walls and tennis courts to keep you busy in the summer moths.
       - title: Grant Park & Buckingham Fountain
         description: Stretching from just south of Navy Pier all the way to Museum Campus, don't be surprised to see one or two events going on at any given time. If you're staying anywhere in the loop and looking for some exercise, you won't be alone walking or jogging around the park at any time of day either. And don't forget to check out Buckingham Fountain as well, another iconic Chicago landmark.
-      - title: River Boat Architecture Tour
-        description: Another must-do for anyone visiting Chicago! Enjoy views of the city's sky scrapers and learning about the Chicago history while cruising down the Chicago River. There are a few companies that offer architecture cruises, but our favorite is the one run by the Chicago Architecture Foundation on Chicago's First Lady.
+      - title: River Cruise Architecture Tour
+        description: Another must-do for anyone visiting Chicago! Enjoy views of the city's sky scrapers and learning about the Chicago history while cruising down the Chicago River. There are a few different companies that offer architecture cruises, but our favorite is the one run by the <a href="https://www.architecture.org/experience-caf/tours/detail/chicago-architecture-foundation-river-cruise-aboard-chicagos-first-lady-cruises/">Chicago Architecture Foundation on Chicago's First Lady</a>.
       - title: Navy Pier
         description: Yes, the reception on Sunday is going to be at the Navy Pier Ballroom, but there's so much more to do! Memorial day weekend just happens to be the grand opening of the new-and-improved Ferris Wheel along with the beginning of the summer seasono on the pier. For the kids, there are rides, games, laser tag, a children's museum and more.
       - title: Magnificent Mile
@@ -314,24 +314,30 @@ guide:
         description: Don't let the name fool you - The Second City is a legendary improv and comedy club that's been the starting point for some of the world's greatest comedians, both past and present. You can catch a stand-up comedy show or watch one of the many improv shows they put on throught the week.
     food:
       - title: Deep Dish Pizza
+        description: This is what Chicago is known for. The classic debate is between Giordano's and Lou Malnati's (we both prefer Giordano's), so if you're looking to start your deep dish adventure somewhere, we'd suggest one of those two.
       - title: Italian Beef
+        description: Another Chicago staple. When staying in Chicago for the first time, a visit to Portillo's is almost required just to experience the fast-food/amusement park atmosphere inside. For something less touristy, hit up any of the Al's Beef locations in the city. While the establishments are  typically not much to look at, a beef dipped with hot and sweet peppers will make you think you're in sandwich heaven.
       - title: Steakhouses
+        description: If you want a steak, you've come to thr right town. From national chains to Chicago-only classics, there's almost too many to choose from. For something that you can't find outside of Chicago, we recommend Chicago Cut Steakhouse, where you might find yourself sitting next to celebrities while overlooking the Chicago River. For a good steak in a not-so-traditional setting try Bavette's Bar and Boeuf.
       - title: Eataly
+        description: It's like Italy but with "eat" at the front, get it?! Jokes aside, the grocery store/restaurant is like walking into a mini outdoor market. Each restaurant in the building is set up in and along the same aisles that hold the food used to prepare your meals. And if you like it enough, you can buy it yourself too!
       - title: Fontera Grill/Xoco/Tompalobompo
-      - title: Girl and the Goat/Little Goat/Duck Duck Goat
-      - title: Alinea/Next/Grace
+      - title: Girl and the Goat & Little Goat
       - title: Au Cheval
+        description: The restaurant is dimly lit, typically cramped with music blaring from the speakers. They don't take reservations and you'll probably end up waiitng at least an hour and a half for a table. BUT if you can stomach all those things, get the double cheeseburger with bacon, an egg and (if you're daring) foie gras. That's the one that's been called the best burger in America.
       - title: Big Star
+        description: Situated a little further away from the action of the weekend in Wicker Park, if you make the treck out on the Blue Line, you'll be rewarded with margaritas, cold beers and some of the best tacos in the city. If the weather is nice, you can enjoy all this and more while sitting on their huge patio.
     drinks:
-      - title: The Aviary
       - title: Rooftops
-      - title: Pops for Champgne/Watershed
-      - title: Rock Bottom
-      - title: Social 25
-      - title: Wrigleyville
-      - title: Goose Island
-      - title: Revolution
-      - title: Lagunitas
+        description: When the weather cooperates, everyone in the city heads straight to the roofs. Check out the Roof at the Wit if you're looking for a sheek, ultra-lounge feel. The IO Lounge at the Godfrey lets you hedge your bets as far as weather is concerend with an outdoor and indoor area. Cindy's on the roof of the Chicago Athletic Association Hotel on Michigan Avenue serves great drinks and has a great view of Grant Park, Lake Michigan and beyond.
+      - title: Pops for Champagne & Watershed
+        description: We're celebrating a wedding, why not have some champagne? Pops serves champagne, sparkling wine and cocktails featuring them both. If that's not your fancy, look for the block W and head downstairs to Watershed, which features comfy seats and a sizable local beer selection and whiskey collection.
+      - title: Hubbard Street
+        description: Just north of the loop across the Chicago River is where you'll find the bars and clubs of the River North neighborhood on and around Hubbard Street. Combined with the slew of restaurants in and around River North, you can easily make a night of wandering the scene here. Social 25 and Rockit are centrally located and good if you're looking for some drinks and dancing, which is something you can say about most places in River North.
+      - title: Breweries
+        description: Goose Island is a Chicago staple and has a new tasting room in West Loop that also offers tours of it's facilities. Revolution Brewery is also a local favorite and has a tap room and brewery tours a little further from downtown. Lagunitas recently opened a huge brewery in Chicago as well that features an equally huge taproom.
+      - title: The Aviary
+        description: From the same people who operate Alinea, which has been named best restaurant in the country, The Aviary serves creatively designed cocktails that will likely have you telling stories about the drinks you experienced there. They do take a few walk-ins, but your best bet is to buy tickets ahead of time, which is effectively a deposit toward your drinks and snacks for the night.
     museums:
       - title: Shedd Aquarium
       - title: Art Institue
