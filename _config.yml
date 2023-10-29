@@ -1,6 +1,6 @@
 # Site settings
-title: Chris & Nikita
-email: chris@baclig.me
+title: Meredith & Stéphane
+email: wedding-meresteph@thiell.com
 url: https://narrowe.thiell.com
 description: "We're getting married and can't wait to celebrate with you!"
 baseurl: ""
@@ -15,7 +15,7 @@ permalink: pretty
 # Possible values
 # `chi` - Chicago
 # `lbc` - Long Beach
-context: lbc
+context: chi
 
 locations:
   hilton: &hilton_location
