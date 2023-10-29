@@ -1,9 +1,9 @@
 # Site settings
 title: Chris & Nikita
 email: chris@baclig.me
-url: https://thiell.github.io/
+url: https://narrowe.thiell.com
 description: "We're getting married and can't wait to celebrate with you!"
-baseurl: "/wedding"
+baseurl: ""
 #host: 0.0.0.0 # listen to LAN connections
 gems:
   - jekyll-sitemap
