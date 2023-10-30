@@ -18,18 +18,18 @@ permalink: pretty
 context: chi
 
 locations:
-  hilton: &hilton_location
-    location_name: Hilton Chicago
-    address1: 720 S Michigan Ave.
-    address2: Chicago, IL 60605
-    coordinates: 41.872592,-87.62481
-    google_maps_url: https://www.google.com/maps/place/Hilton+Chicago/@41.8725329,-87.6248502,17z/data=!4m7!1m4!3m3!1s0x880e2c99242c7a2f:0x4de3d4bb09dba1!2sHilton+Chicago!3b1!3m1!1s0x880e2c99242c7a2f:0x4de3d4bb09dba1
-  vashi: &vashi_location
-    location_name: Vashi Residence
-    address1: 211 N Savanna Ct.
-    address2: Lake Forest, IL 60045
-    coordinates: 42.243377,-87.878189
-    google_maps_url: https://www.google.com/maps/place/211+N+Savanna+Ct,+Lake+Forest,+IL+60045/@42.244292,-87.8793387,17z/data=!3m1!4b1!4m2!3m1!1s0x880f951707bd6ae1:0xee4caaaf8316d979
+  ferme: &ferme_location
+    location_name: La Ferme d'En Chon
+    address1: 346 Chemin d'en Chon
+    address2: 40600 Biscarrosse, France
+    coordinates: 44.432361218143235,-1.1564129722482446
+    google_maps_url: https://maps.app.goo.gl/HUA7HQhZSf8SbsTm9
+  townhall: &townhall_location
+    location_name: Arcachon Town Hall
+    address1: Place Lucien de Gracia
+    address2: 33120 Arcachon, France
+    coordinates: 44.66134271368623,-1.1705823317629953
+    google_maps_url: https://maps.app.goo.gl/NLAHfYtaEczeFsEr8
   navy_pier: &navy_pier_location
     location_name: Navy Pier Grand Ballroom
     address1: 600 E Grand Ave.
@@ -68,7 +68,7 @@ hotels:
       reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
       rate: $229/night
       description: Includes continental breakfast each morning
-      <<: *hilton_location
+      <<: *ferme_location
     - name: Hyatt Centric
       phone: +1-312-236-1234
       reserve_url: https://aws.passkey.com/g/54381507
@@ -85,43 +85,35 @@ hotels:
 
 events:
   chi:
-    - name: Mehndi Night
-      date: Thursday, May 26, 2016
-      time: 7pm
-      attire: Casual
+    - name: Civil ceremony
+      date: Saturday, July 13, 2024
+      time: 11am
+      attire: Formal
       description: A casual family gathering where henna is applied in intricate designs to the hands and feet of the bride and her female guests. Meant as one of many ritual adornments for the Hindu bride, it is said that the darker the henna turns out, the greater the love the bride has for her groom.  Mehndi artists also hide the groom’s name or initials into the bride’s henna design and it is her job to find them before the wedding. Traditionally, the bride is not allowed to work in her husband’s house until after the mehndi has completely faded. Further, with their hands covered in henna paste, the women of the party are unable to cook or serve during the Mehndi celebration, so the men are invited to feed and serve the women.
-      transportation:
-      <<: *vashi_location
-    - name: Garba
-      date: Friday, May 27, 2016
-      time: 7pm
-      attire: Semi-formal
+      transportation: Parking info TBD; might be difficult; provide suggestions.
+      <<: *townhall_location
+    - name: Second ceremony
+      date: Saturday, July 13, 2024
+      time: 3pm
+      attire: Formal
       description: A night of traditional Gujarati folk dancing! Set to energetic music, garba is a style of group dance performed as a ritual homage to a the Hindu goddess of creation, Ambama. Garba is usually accompanied by Raas, a similar style of dance dedicated to the Hindu god Krishna that incorporates a set of sticks called Dandiya. Both are traditionally performed during the Gujarati festival of Navratri (“nine-nights”) and also as a precedent to special occasions such as weddings. Everyone is invited and encourage to join in the dancing - don’t worry, there will be tutorials!  And keep an eye out for a few special performances from close family and friends.
-      transportation: Discounted self-parking will be available.
-      <<: *hilton_location
-    - name: Hindu Wedding
-      date: Saturday, May 28, 2016
-      time: 10am
+      transportation: Free self-parking available at La Ferme d'En Chon.
+      <<: *ferme_location
+    - name: Reception
+      date: Saturday, July 13, 2024
+      time: 4pm
       attire: Formal
       description: The Hindu wedding ceremony as described by the Vedas, the Hindu scriptures, is over 5,000 years old and is traditionally performed in the Sanskrit language. The ceremony commemorates the bride and groom no longer existing as two independent souls but as a spiritual oneness. Ceremonies include the Barat (Arrival of the Groom), Pokhna Vidhi (Welcoming of the Groom), Jai Mala (Exchange of Garlands), Vastra Granthi Bandhan (Tying the Knot), Mangalphera (Holy Circles around the Fire), and Saptapadi (Taking Life’s Seven Steps).
-      transportation: Discounted self-parking will be available.
-      <<: *hilton_location
-    - name: Catholic Wedding
-      date: Sunday, May 29, 2016
-      time: 3pm
-      attire: Black Tie Optional
+      transportation:
+      <<: *ferme_location
+    - name: Plated dinner and dancing
+      date: Saturday, July 13, 2024
+      time: 7pm
+      attire: Semi-Formal
       description: The traditional Catholic wedding is enhanced in Filipino culture by several traditions. Ceremonial sponsors or godparents are chosen by the betrothed as role models for their future married life and participate in the procession with the bridal party. Two separate candles are lit at the beginning of the ceremony, which the bride and groom then join into a single flame signifying the union of their two families. A veil is placed over the shoulders of the bride and groom during the ceremony, demonstrating the clothing of two individuals as one. A cord is then looped in a figure 8 and placed over the heads of the bride and group to signify everlasting fidelity.
-      transportation: Limited self-parking available.
-      shuttle: Transportation will also be provided between Hilton Chicago and St. Michael in Old Town.
-      <<: *st_michael_location
-    - name: Reception
-      date: Sunday, May 29, 2016
-      time: 5:30pm
-      attire: Black Tie Optional
-      description: Join us for dinner and dancing as we celebrate our marriage into the night!
-      transportation: Complimentary valet parking will be available at Navy Pier. Follow signs for Navy Pier parking to the East Parking garage, entrance two.
-      shuttle: Transportation will also be provided between St. Michael in Old Town, Navy Pier and Hilton Chicago.
-      <<: *navy_pier_location
+      transportation:
+      shuttle:
+      <<: *ferme_location
   lbc:
     - name: Reception
       date: Satuday, June 4, 2016
