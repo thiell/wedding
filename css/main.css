@@ -182,7 +182,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: left bottom;
+    background-position: left top;
 }
 
 @media(min-width:992px) {
@@ -215,7 +215,7 @@ a:focus {
     }
 
     .brand-heading {
-        font-size: 100px;
+        font-size: 72px;
     }
 
     .intro-text {
