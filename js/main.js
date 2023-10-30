@@ -67,4 +67,12 @@ $(function() {
   $('.ga-email-etc-coming-soon').click(function(){
     ga('send', 'event', 'Email Signup', 'Open Form', 'ETC - Coming Soon');
   });
+
+  $('.ga-rsvp-nav').click(function(){
+    ga('send', 'event', 'RSVP', 'Open Form', 'Nav Bar');
+  });
+
+  $('.ga-rsvp-etc-coming-soon').click(function(){
+    ga('send', 'event', 'RSVP', 'Open Form', 'ETC - Coming Soon');
+  });
 });
