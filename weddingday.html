@@ -1,17 +1,17 @@
 ---
 layout: info
-title: Celebrations
+title: titles.weddingday
 billboard_class: billboard-celebrations
 ---
-{% for event in site.events[site.context] %}
+{% for event in site.events %}
   <section class="container content-section {% cycle 'text-left', 'text-right' %}">
     <div class="row">
       <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
         <h2>
-          {{ event.name }}
+          {% t event.name %}
           <br>
           <small>
-            {{ event.date }} | {{ event.time }}
+            {% t event.date %} | {% t event.time %}
           </small>
         </h2>
 
@@ -24,24 +24,34 @@ billboard_class: billboard-celebrations
             </a>
           </address>
 
+          <!--
           <dl class="col-xs-4 text-right">
-            <dt>Attire</dt>
-            <dd>{{ event.attire }}</dd>
+            <dt>{% t global.attire %}</dt>
+            <dd>{% t event.attire %}</dd>
           </dl>
+          -->
 
         </div>
 
-        <p>{{ event.description }}</p>
+        <p>{% tf event.description_file %}</p>
         
-        {% if event.transportation %}
-          <p><em>{{ event.transportation }}</em></p>
+        {% if event.transportation_file %}
+          <p><em>{% tf event.transportation_file %}</em></p>
         {% endif %}
 
         {% if event.shuttle %}
           <p><em>{{ event.shuttle }}</em></p>
         {% endif %}
 
+        {% if event.map_url %}
+          <div>
+            <iframe src="{{ event.map_url }}" class="map"></iframe>
+          </div>
+        {% endif %}
+
+
       </div>
     </div>
   </section>
+
 {% endfor %}

@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -138,7 +138,7 @@ a:focus {
 }
 
 .navbar-custom {
-    border-bottom: 3px solid #AFA63D;
+    border-bottom: 3px solid #dbd9ce;
     box-shadow: #888 0px 1px 10px;
 }
 
@@ -165,7 +165,7 @@ a:focus {
   color: #fff;
 }
 .navbar-custom.top-nav-collapse {
-    border-bottom: 3px solid #AFA63D;
+    border-bottom: 3px solid #dbd9ce;
     box-shadow: #888 0px 1px 10px;
 }
 
@@ -202,11 +202,13 @@ a:focus {
 
 .brand-heading {
     font-size: 40px;
-    letter-spacing: 0.025em;
+    font-weight: 900;
 }
 
 .intro-text {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 @media(min-width:767px) {
@@ -219,7 +221,7 @@ a:focus {
     }
 
     .intro-text {
-        font-size: 25px;
+        font-size: 32px;
     }
 }
 
@@ -320,7 +322,7 @@ a:focus {
 
 .map {
     width: 100%;
-    height: 400px;
+    height: 320px;
     margin-bottom: 50px;
 }
 
@@ -351,14 +353,6 @@ a:focus {
     outline: 0;
     color: #000000;
     background-color: #219ab3;
-}
-
-footer {
-    padding: 50px 0;
-}
-
-footer p {
-    margin: 0;
 }
 
 body {
@@ -472,8 +466,19 @@ dd {
 }
 
 .billboard-celebrations {
-  background-position: center bottom;
+  background-position: center center;
   background-image: url(../img/sparklers.jpg);
+}
+
+.billboard-accommodations {
+  background-position: center center;
+  background-image: url(../img/sparklers.jpg);
+}
+
+
+.billboard-weddingweek {
+  background-position: center center;
+  background-image: url(../img/oysters.jpg);
 }
 
 .billboard-skyline {
@@ -509,8 +514,15 @@ dd {
     background-position: center -185px;
   }
 
+  .billboard-celebrations {
+    background-position: center -190px;
+  }
+  .billboard-weddingweek {
+    background-position: center -190px;
+  }
   .billboard-ramp-walk {
     background-position: center -190px;
+  }
 }
 
 .floating-info {
@@ -550,4 +562,32 @@ dd {
   position: absolute;
   top: 10px;
   right: 2px;
+}
+
+footer {
+  padding: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-wrapper {
+  flex-shrink: 0;
+}
+
+footer.site-footer {
+  padding: 5px 10px;
+  background-color:  #dbd9ce;
+  color: #010101;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  p {
+    font-size: clamp(.65rem, 2.5vw, .8rem);
+  }
+  a {
+    color: #ff0000;
+  }
 }

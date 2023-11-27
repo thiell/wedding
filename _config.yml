@@ -6,16 +6,18 @@ description: "We're getting married and can't wait to celebrate with you!"
 baseurl: ""
 #host: 0.0.0.0 # listen to LAN connections
 plugins:
+  - jekyll-multiple-languages-plugin
   - jekyll-sitemap
+
+languages: ["en", "fr"]
+exclude_from_localizations: ["CNAME", "LICENSE", "README.md", "css", "index.html", "img", "js"]
+default_locale_in_subfolder: true
+
+exclude: ["CNAME", "LICENSE", "README.md"]
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Possible values
-# `chi` - Chicago
-# `lbc` - Long Beach
-context: chi
 
 locations:
   ferme: &ferme_location
@@ -62,181 +64,53 @@ locations:
     google_maps_url: https://www.google.com/maps/place/Renaissance+Long+Beach+Hotel/@33.767385,-118.19168,15z/data=!4m2!3m1!1s0x0:0x19c2a818049de073?sa=X&ved=0ahUKEwiz1oXnsdTKAhXCHR4KHRmkC6sQ_BIIjQEwCg
 
 hotels:
-  chi:
-    - name: Hilton Chicago
-      phone: +1-312-922-4400
-      reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
-      rate: $229/night
-      description: Includes continental breakfast each morning
-      <<: *ferme_location
-    - name: Hyatt Centric
-      phone: +1-312-236-1234
-      reserve_url: https://aws.passkey.com/g/54381507
-      rate: $199/night
-      description: Centrally located in the middle of the loop
-      <<: *hyatt_location
-  lbc:
-    - name: Renaissance Long Beach
-      phone: +1-562-437-5900
-      reserve_url: https://resweb.passkey.com/go/bacligwedding
-      rate: $169/night
-      description: A few blocks away from the aquarium
-      <<: *renaissance_location
+  - name: Hilton Chicago
+    phone: +1-312-922-4400
+    reserve_url: https://resweb.passkey.com/go/VashiBacligWeding
+    rate: $229/night
+    description: Includes continental breakfast each morning
+    <<: *ferme_location
+  - name: Hyatt Centric
+    phone: +1-312-236-1234
+    reserve_url: https://aws.passkey.com/g/54381507
+    rate: $199/night
+    description: Centrally located in the middle of the loop
+    <<: *hyatt_location
 
 events:
-  chi:
-    - name: Civil ceremony
-      date: Saturday, July 13, 2024
-      time: 11am
-      attire: Formal
-      description: A casual family gathering where henna is applied in intricate designs to the hands and feet of the bride and her female guests. Meant as one of many ritual adornments for the Hindu bride, it is said that the darker the henna turns out, the greater the love the bride has for her groom.  Mehndi artists also hide the groom’s name or initials into the bride’s henna design and it is her job to find them before the wedding. Traditionally, the bride is not allowed to work in her husband’s house until after the mehndi has completely faded. Further, with their hands covered in henna paste, the women of the party are unable to cook or serve during the Mehndi celebration, so the men are invited to feed and serve the women.
-      transportation: Parking info TBD; might be difficult; provide suggestions.
-      <<: *townhall_location
-    - name: Second ceremony
-      date: Saturday, July 13, 2024
-      time: 3pm
-      attire: Formal
-      description: A night of traditional Gujarati folk dancing! Set to energetic music, garba is a style of group dance performed as a ritual homage to a the Hindu goddess of creation, Ambama. Garba is usually accompanied by Raas, a similar style of dance dedicated to the Hindu god Krishna that incorporates a set of sticks called Dandiya. Both are traditionally performed during the Gujarati festival of Navratri (“nine-nights”) and also as a precedent to special occasions such as weddings. Everyone is invited and encourage to join in the dancing - don’t worry, there will be tutorials!  And keep an eye out for a few special performances from close family and friends.
-      transportation: Free self-parking available at La Ferme d'En Chon.
-      <<: *ferme_location
-    - name: Reception
-      date: Saturday, July 13, 2024
-      time: 4pm
-      attire: Formal
-      description: The Hindu wedding ceremony as described by the Vedas, the Hindu scriptures, is over 5,000 years old and is traditionally performed in the Sanskrit language. The ceremony commemorates the bride and groom no longer existing as two independent souls but as a spiritual oneness. Ceremonies include the Barat (Arrival of the Groom), Pokhna Vidhi (Welcoming of the Groom), Jai Mala (Exchange of Garlands), Vastra Granthi Bandhan (Tying the Knot), Mangalphera (Holy Circles around the Fire), and Saptapadi (Taking Life’s Seven Steps).
-      transportation:
-      <<: *ferme_location
-    - name: Plated dinner and dancing
-      date: Saturday, July 13, 2024
-      time: 7pm
-      attire: Semi-Formal
-      description: The traditional Catholic wedding is enhanced in Filipino culture by several traditions. Ceremonial sponsors or godparents are chosen by the betrothed as role models for their future married life and participate in the procession with the bridal party. Two separate candles are lit at the beginning of the ceremony, which the bride and groom then join into a single flame signifying the union of their two families. A veil is placed over the shoulders of the bride and groom during the ceremony, demonstrating the clothing of two individuals as one. A cord is then looped in a figure 8 and placed over the heads of the bride and group to signify everlasting fidelity.
-      transportation:
-      shuttle:
-      <<: *ferme_location
-  lbc:
-    - name: Reception
-      date: Satuday, June 4, 2016
-      time: 7pm
-      attire: Semi-formal
-      description: Join us for dinner and dancing as we celebrate our marriage into the night!
-      transportation:
-      <<: *aquarium_location
+  - name: titles.civil_ceremony
+    date: dates.wedday_full
+    time: times.civil_ceremony
+    attire: attires.garden_party
+    description_file: events/civil_ceremony.md
+    transportation_file: events/civil_ceremony_transportation.md
+    map_url: "https://www.google.com/maps/d/u/0/embed?mid=192kinznqPT7v5ZZTUPP060rfqd1xq8A&ehbc=2E312F&noprof=1"
+    ###map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.857523979945!2d-1.175442510635454!3d44.661262512074664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd549f04775af719%3A0x33575c58c20aeced!2sArcachon%20Town%20Hall!5e0!3m2!1sen!2sus!4v1700958738447!5m2!1sen!2sus"
+    <<: *townhall_location
+  - name: titles.second_ceremony
+    date: dates.wedday_full
+    time: times.second_ceremony
+    attire: attires.garden_party
+    description_file: events/second_ceremony.md
+    transportation_file: events/second_ceremony_transportation.md
+    map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.08779149177!2d-1.1565417344813298!3d44.43136134591476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd548120012076e5%3A0xf0b507fee77edca0!2sHotel%20La%20Ferme%20D&#39;en%20Chon!5e0!3m2!1sen!2sus!4v1700958837623!5m2!1sen!2sus"
+    <<: *ferme_location
 
-people:
-  families:
-    - pic: vashis.jpg
-      name: The Vashis
-      people: Pankaj, Glynis, Rohan and Cosmo
-    - pic: bacligs.jpg
-      name: The Bacligs
-      people: Crispin, Bernadette, Jon and Samantha
-  kids:
-    - pic: nadiya.jpg
-      name: Nadiya Kundu
-      title: Flower Girl
-    - pic: jaanvi.jpg
-      name: Jaanvi Vashi
-      title: Flower Girl
-    - pic: levi.jpg
-      name: Levi Lagrimas
-      title: Ring Bearer
-  her_side:
-    - name: Samantha Baclig
-      pic: samie.jpg
-      role: Junior Bridesmaid
-      description: Chris’ Sister
-    - name: Ronak Vashi
-      pic: ronak.jpg
-      role: Bridesmaid
-      description: Nikita’s Cousin
-    - name: Trisha DaSilva
-      pic: trisha.jpg
-      role: Bridesmaid
-      description: Nikita’s Cousin
-    - name: Gabby Colaianni
-      pic: gabbyc.jpg
-      role: Bridesmaid
-      description: Nikita’s High School Friend
-    - name: Devyn Brown
-      pic: devyn.jpg
-      role: Bridesmaid
-      description: Nikita’s College Roommate
-    - name: Chelsea Barabas
-      pic: chelsea.jpg
-      role: Bridesmaid
-      description: Nikita’s College Roommate
-    - name: Tanya Aylward
-      pic: tanya.jpg
-      role: Bridesmaid
-      description: Nikita’s College Friend
-    - name: Sanjana Tandon
-      pic: sanjana.jpg
-      role: Bridesmaid
-      description: Nikita’s College Friend
-    - name: Leigha Winters
-      pic: leigha.jpg
-      role: Bridesmaid
-      description: Nikita’s Post-College Roommate
-    - name: Miriam Komisar
-      pic: miriam.jpg
-      role: Bridesmaid
-      description: Nikita’s Medical School  Friend
-    - name: Meagan Appleman
-      pic: meagan.jpg
-      role: Bridesmaid
-      description: Nikita’s Medical School Friend
-    - name: Gabby Aguilar
-      pic: gabbya.jpg
-      role: Bridesmaid
-      description: Nikita’s Medical School Friend
-  his_side:
-    - name: Jonathan Baclig
-      pic: jon.jpg
-      role: Best Man
-      description: Chris’ Brother
-    - name: Rohan Vashi
-      pic: rohan.jpg
-      role: Groomsman
-      description: Nikita’s Brother
-    - name: Ryan Abad
-      pic: ryan.jpg
-      role: Groomsman
-      description: Chris’ Cousin
-    - name: Gabriel Mendoza
-      pic: gabe.jpg
-      role: Groomsman
-      description: Chris’ High School Friend
-    - name: Eric Ma
-      pic: eric.jpg
-      role: Groomsman
-      description: Chris’ College Roommate
-    - name: Rajan Patel
-      pic: rajan.jpg
-      role: Groomsman
-      description: Chris’ College Roommate
-    - name: Arpeet Shah
-      pic: arpeet.jpg
-      role: Groomsman
-      description: Chris’ College Friend
-    - name: Winston Lofton
-      pic: winston.jpg
-      role: Groomsman
-      description: Chris’ College Friend
-    - name: Scott Keyes
-      pic: scott.jpg
-      role: Groomsman
-      description: Chris’ College Friend
-    - name: Isaac Johnson
-      pic: isaac.jpg
-      role: Groomsman
-      description: Chris’ Post-College Roommate
-    - name: Dare Kolawale
-      pic: dare.jpg
-      role: Groomsman
-      description: Chris’ Post-College  Roommate
+otherevents:
+  - name: titles.vineyard_visit
+    date: dates.vineyard_visit_full
+    time: times.vineyard_visit
+    attire: attires.garden_party
+    description_file: events/vineyard_visit.md
+    transportation_file: events/vineyard_visit_transportation.md
+  - name: titles.boat_tour
+    date: dates.boat_tour_full
+    time: times.boat_tour
+    attire: attires.garden_party
+    description_file: events/boat_tour.md
+    transportation_file: events/boat_tour_transportation.md
+
 faq:
-  chi:
     - question: OMG what do I wear?
       answer: |
         The Garba night on Friday is primarily a night of Indian folk dancing, so be prepared to kick off your shoes, roll up your sleeves and get a light aerobic workout in!
@@ -279,10 +153,7 @@ faq:
     - question: I heard you're moving!  Where and when?
     - answer: We are!  We're moving to Seattle directly after the wedding so Nikita can start her internal medicine residency at University of Washington, so we're extremely excited to spend this last epic Chicago weekend with you all :)
 
-  lbc: false
-
 guide:
-  chi:
     explore:
       - title: Millenium Park & Cloud Gate
         description: While lots of visitors come to see "The Bean," there's a lot more to see at Millenium Park including giant screens of people spitting on you (yes, that's a real thing), the Lurie Garden and Pritzker Pavillion. And while you're there, it might also be a good time to cross the street and check out Maggie Daley Park.
@@ -335,8 +206,6 @@ guide:
         description: Goose Island is a Chicago staple and has a new tasting room in West Loop that also offers tours of it's facilities.  Goose Island also offers a full-service restaurant that serves up its famous brews, for those of you worried about bringing children to a tasting room. Revolution Brewery is also a local favorite and has a tap room and brewery tours a little further from downtown. Lagunitas recently opened a huge brewery in Chicago as well that features an equally huge taproom.
       - title: The Aviary
         description: From the same people who operate Alinea, which has been named best restaurant in the country, The Aviary serves creatively designed cocktails that will likely have you telling stories about the drinks you experienced there. They do take a few walk-ins, but your best bet is to buy tickets ahead of time, which is effectively a deposit toward your drinks and snacks for the night.
-
-  lbc: false
 
 google:
   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU

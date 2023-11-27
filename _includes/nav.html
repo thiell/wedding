@@ -18,38 +18,39 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="{% if page.url == '/' %}active{% endif %}">
-                        <a href="/"> Our Story</a>
+                        <a href="/"> {% t titles.welcome %}</a>
                     </li>
-                    <li class="{% if page.url == '/celebrations/' %}active{% endif %}">
-                        <a href="/celebrations">Celebrations</a>
+                    <li class="{% if page.url == '/weddingday/' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/weddingday">{% t titles.weddingday %}</a>
                     </li>
-                    <li class="{% if page.url == '/people/' %}active{% endif %}">
-                        <a href="/people">People</a>
+                    <li class="{% if page.url == '/weddingweek/' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/weddingweek">{% t titles.weddingweek %}</a>
                     </li>
-                    <li class="{% if page.url == '/details/' %}active{% endif %}">
-                        <a href="/details">Details</a>
+                    <li class="{% if page.url == '/travel/' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/travel">{% t titles.travel %}</a>
                     </li>
-                    {% if site.faq[site.context] %}
+                    <li class="{% if page.url == '/accommodations/' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/accommodations">{% t titles.accommodations %}</a> </li>
+                    </li>
+                    <li class="{% if page.url == '/swfrance/' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/swfrance">{% t titles.swfrance %}</a> </li>
+                    </li>
+                    {% if site.faq %}
                       <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/faq">FAQ</a>
+                        <a href="{{ site.baseurl }}/faq">FAQ</a>
                       </li>
                     {% endif %}
-                    {% if site.guide[site.context] %}
-                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/guide">City Guide</a>
-                      </li>
-                    {% endif %}
-                    <li class="{% if page.url == '/etc/' %}active{% endif %}">
-                      <a href="/etc">Etc</a>
+                    <!-- <li class="{% if page.url == '/registry/' %}active{% endif %}">
+                      <a href="{{ site.baseurl }}/registry">{% t titles.registry %}</a>
                     </li>
-                    {% if site.context == "chi" %}
-                        <li class="notification-link">
-                          <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
-                            <i class="fa fa-exclamation-circle notification-link--icon"></i>
-                            Updates
-                          </a>
-                        </li>
-                    {% endif %}
+                    
+                    <li class="notification-link">
+                      <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
+                        <i class="fa fa-exclamation-circle notification-link--icon"></i>
+                        Updates
+                      </a>
+                    </li>
+                    -->
 
 		    <li class="notification-link">
 		      <a href="#" class="ga-rsvp-nav" data-toggle="modal" data-target="#rsvp-modal">
@@ -57,6 +58,14 @@
 		        RSVP
 		      </a>
 		    </li>
+
+                    <li class="">
+			{% if site.lang == "en" %}
+                        	<a href="/fr{{ page.url }}">🇫🇷</a>
+			{% elsif site.lang == "fr" %}
+                        	<a href="/en{{ page.url }}">🇺🇲</a>
+			{% endif %}
+                    </li>
 
                 </ul>
             </div>
