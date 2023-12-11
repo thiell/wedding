@@ -477,7 +477,7 @@ dd {
   background-image: url(../img/weddingday.jpg);
 }
 
-.billboard-celebrations {
+.billboard-otherevents {
   background-position: center center;
   background-image: url(../img/celebrations.jpg);
 }
@@ -506,7 +506,7 @@ dd {
   .billboard-weddingday {
     background-position: center -190px;
   }
-  .billboard-celebrations {
+  .billboard-otherevents {
     background-position: center -19em;
   }
   .billboard-stay {
