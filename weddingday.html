@@ -63,3 +63,11 @@ billboard_class: billboard-weddingday
   </section>
 
 {% endfor %}
+
+<section class="container top-content-section {% cycle 'text-left', 'text-right' %}">
+  <div class="row">
+    <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
+      {% tf weddingday/carpool.md %} 
+    </div>
+  </div>
+</section>
