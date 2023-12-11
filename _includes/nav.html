@@ -6,7 +6,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="/">
-                  M & S
+                  M <font size="+1">+</font> S
                 </a>
             </div>
 
@@ -29,21 +29,18 @@
                     <li class="{% if page.url == '/travel/' %}active{% endif %}">
                         <a href="{{ site.baseurl }}/travel">{% t titles.travel %}</a>
                     </li>
-                    <li class="{% if page.url == '/accommodations/' %}active{% endif %}">
-                        <a href="{{ site.baseurl }}/accommodations">{% t titles.accommodations %}</a> </li>
+                    <li class="{% if page.url == '/stay/' %}active{% endif %}">
+                        <a href="{{ site.baseurl }}/stay">{% t titles.stay %}</a>
                     </li>
                     <li class="{% if page.url == '/swfrance/' %}active{% endif %}">
-                        <a href="{{ site.baseurl }}/swfrance">{% t titles.swfrance %}</a> </li>
+                        <a href="{{ site.baseurl }}/swfrance">{% t titles.swfrance %}</a>
                     </li>
                     {% if site.faq %}
                       <li class="{% if page.url == '/faq/' %}active{% endif %}">
                         <a href="{{ site.baseurl }}/faq">FAQ</a>
                       </li>
                     {% endif %}
-                    <!-- <li class="{% if page.url == '/registry/' %}active{% endif %}">
-                      <a href="{{ site.baseurl }}/registry">{% t titles.registry %}</a>
-                    </li>
-                    
+                    <!--
                     <li class="notification-link">
                       <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
                         <i class="fa fa-exclamation-circle notification-link--icon"></i>
@@ -52,12 +49,21 @@
                     </li>
                     -->
 
+                    <li class="">
+                        {% if site.lang == "en" %}
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScifx52hOoglbX0lUTx2zEnS07zNi-TkRE5kNDk2evgThwUQA/viewform">RSVP</a>
+			{% elsif site.lang == "fr" %}
+                            <a href="TBD">RSVP</a>
+			{% endif %}
+                    </li>
+                    <!--
 		    <li class="notification-link">
 		      <a href="#" class="ga-rsvp-nav" data-toggle="modal" data-target="#rsvp-modal">
 		        <i class="fa fa-exclamation-circle notification-link--icon"></i>
 		        RSVP
 		      </a>
 		    </li>
+                    -->
 
                     <li class="">
 			{% if site.lang == "en" %}

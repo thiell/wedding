@@ -1,0 +1,49 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+  attire: Attire
+langs:
+  en: English
+  fr: French
+pages:
+  example: example
+  includeexample: The following text is a Jekyll include liquid tag parameter
+dates:
+  wedday: July 13, 2024
+  wedday_full: Saturday, July 13, 2024
+  vineyard_visit: July 9, 2024
+  vineyard_visit_full: Tuesday, July 9, 2024
+  boat_tour: July 11, 2024
+  boat_tour_full: Thursday, July 11, 2024
+  sunday_lunch: July 14, 2024
+  sunday_lunch_full: Sunday, July 14, 2024
+times:
+  civil_ceremony: 11am
+  second_ceremony: 3pm
+  vineyard_visit: lunch through late afternoon
+  boat_tour: early afternoon for 3 hours
+  sunday_lunch: 12pm
+attires:
+  garden_party: "Garden Party"
+titles:
+  welcome: Welcome
+  pagination: Pagination
+  weddingday: "Wedding Day"
+  weddingweek: "Other Events"
+  guide: City Guide
+  travel: Travel
+  stay: Where to Stay
+  swfrance: "Southwest France"
+  registry: Registry
+  civil_ceremony: Civil Ceremony
+  vineyard_visit: Wine Tasting
+  boat_tour: Boat Tour of Arcachon Bay
+  sunday_lunch: Lunch
+  etc: Etc
+  faq: FAQ
+  people: People
+  second_ceremony: Second ceremony
+  reception: Reception
+  plated_dinner_and_dancing: Plated Dinner and Dancing

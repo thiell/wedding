@@ -1,0 +1,48 @@
+global:
+  tagline: Français
+  about: A propos
+  twitter: Twitter
+  github: GitHub
+  attire: Tenue
+langs:
+  fr: Français
+  en: Anglais
+dates:
+  wedday: 13 juillet 2024
+  wedday_full: Samedi 13 juillet 2024
+  vineyard_visit: 9 juillet 2024
+  vineyard_visit_full: Mardi 9 juillet 2024
+  boat_tour: 11 juillet 2024
+  boat_tour_full: Jeudi 11 juillet 2024
+  sunday_lunch: 14 juillet 2024
+  sunday_lunch_full: Dimanche 14 juillet 2024
+times:
+  civil_ceremony: "11:00"
+  second_ceremony: "15:00"
+  vineyard_visit: TBD
+  boat_tour: TBD
+  sunday_lunch: "12:00"
+attires:
+  garden_party: "Garden Party"
+pages:
+  example: Exemple
+titles:
+  welcome: Accueil
+  pagination: Pagination
+  weddingday: "Jour du mariage"
+  weddingweek: "Autres événements"
+  guide: Guide de la ville
+  travel: Voyage
+  stay: Hébergements
+  swfrance: "Le Sud-Ouest"
+  registry: Registre
+  civil_ceremony: Cérémonie civile
+  vineyard_visit: Vineyard visit
+  boat_tour: Boat tour
+  sunday_lunch: Déjeuner
+  etc: Etc
+  faq: FAQ
+  people: People
+  second_ceremony: Seconde cérémonie
+  reception: Réception
+  plated_dinner_and_dancing: Dîner assis et dance

@@ -1,0 +1,1 @@
+Une seconde cérémonie officiée par le père de Meredith débutera à la Ferme d'En Chon à Biscarrosse à 15h (à environ 45 minutes d'Arcachon). La cérémonie sera suivie d'un Vin d'Honneur, dîner assis et soirée dansante.

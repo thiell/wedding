@@ -23,10 +23,9 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 25px;
     /* text-transform: uppercase; */
-    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Cardo, "Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
 }
 
@@ -41,10 +40,17 @@ ul {
     margin: 0 0 25px;
 }
 
+.inline-header {
+    margin: 0 0 3px;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
         line-height: 1.6;
+    }
+    ul {
+	margin: 0 0 35px;
     }
 }
 
@@ -299,9 +305,14 @@ a:focus {
     }
 }
 
-.content-section {
+.top-content-section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.content-section {
+    padding-top: 15px;
+    padding-bottom: 0px;
 }
 
 .content-section h2 small {
@@ -395,7 +406,7 @@ dd {
   height: 300px;
   text-align: center;
   color: #fff;
-  text-shadow: black 2px 2px 10px;
+  text-shadow: gray 2px 2px 10px;
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: top center;
@@ -448,7 +459,7 @@ dd {
 }
 
 .billboard-two {
-  background-position: left center;
+  background-position: center center;
   background-image: url(../img/story-two.jpg);
 }
 
@@ -457,71 +468,59 @@ dd {
 }
 
 .billboard-four {
+  background-position: center center;
   background-image: url(../img/story-four.jpg);
 }
 
-.billboard-wall {
+.billboard-weddingday {
   background-position: center center;
-  background-image: url(../img/wall.jpg);
+  background-image: url(../img/weddingday.jpg);
 }
 
 .billboard-celebrations {
   background-position: center center;
-  background-image: url(../img/sparklers.jpg);
+  background-image: url(../img/celebrations.jpg);
 }
 
-.billboard-accommodations {
+.billboard-stay {
   background-position: center center;
-  background-image: url(../img/sparklers.jpg);
+  background-image: url(../img/stay.jpg);
 }
 
-
-.billboard-weddingweek {
+.billboard-travel {
   background-position: center center;
-  background-image: url(../img/oysters.jpg);
+  background-image: url(../img/travel.jpg);
 }
 
-.billboard-skyline {
-  background-position: center -17em;
-  background-image: url(../img/skyline.jpg);
-}
-
-.billboard-bridge-walk {
-  background-position: center top;
-  background-image: url(../img/bridge-walk.jpg);
-}
-
-.billboard-ramp-walk {
+.billboard-swfrance {
   background-position: center center;
-  background-image: url(../img/ramp-walk.jpg);
+  background-image: url(../img/swfrance.jpg);
 }
 
-.billboard-river-smile {
+.billboard-faq {
   background-position: center center;
-  background-image: url(../img/river-smile.jpg);
+  background-image: url(../img/faq.jpg);
 }
 
 @media(min-width:767px) {
-  .billboard-wall {
-    background-position: center -170px;
+  .billboard-weddingday {
+    background-position: center -190px;
   }
-
-  .billboard-bridge-walk {
-    background-position: center -160px;
-  }
-
-  .billboard-stairs {
-    background-position: center -185px;
-  }
-
   .billboard-celebrations {
+    background-position: center -19em;
+  }
+  .billboard-stay {
+    background-position: center -19em;
+  }
+  .billboard-travel {
     background-position: center -190px;
   }
-  .billboard-weddingweek {
-    background-position: center -190px;
+  .billboard-swfrance {
+    background-position: center -19em;
+    background-image: url(../img/swfrance.jpg);
   }
-  .billboard-ramp-walk {
-    background-position: center -190px;
+  .billboard-faq {
+    background-position: center -290px;
   }
 }
 

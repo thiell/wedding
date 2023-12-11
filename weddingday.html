@@ -1,10 +1,10 @@
 ---
 layout: info
 title: titles.weddingday
-billboard_class: billboard-celebrations
+billboard_class: billboard-weddingday
 ---
 {% for event in site.events %}
-  <section class="container content-section {% cycle 'text-left', 'text-right' %}">
+  <section class="container top-content-section {% cycle 'text-left', 'text-right' %}">
     <div class="row">
       <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
         <h2>
@@ -43,10 +43,18 @@ billboard_class: billboard-celebrations
           <p><em>{{ event.shuttle }}</em></p>
         {% endif %}
 
+
         {% if event.map_url %}
-          <div>
-            <iframe src="{{ event.map_url }}" class="map"></iframe>
-          </div>
+	  <p>
+	    <a class="btn btn-primary" data-toggle="collapse" href="#collapse-{{ event.id }}" role="button" aria-expanded="false" aria-controls="collapse-{{ event.id }}">
+	      Map
+	    </a>
+	  </p>
+	  <div class="collapse" id="collapse-{{ event.id }}">
+	    <div class="card card-body">
+	      <iframe src="{{ event.map_url }}" class="map"></iframe>
+	    </div>
+	  </div>
         {% endif %}
 
 
