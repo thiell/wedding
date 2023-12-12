@@ -58,19 +58,19 @@ otherevents:
     date: dates.vineyard_visit_full
     time: times.vineyard_visit
     attire: attires.garden_party
-    description_file: events/vineyard_visit.md
+    description_file: otherevents/vineyard_visit.md
     #transportation_file: events/vineyard_visit_transportation.md
   - name: titles.boat_tour
     date: dates.boat_tour_full
     time: times.boat_tour
     attire: attires.garden_party
-    description_file: events/boat_tour.md
+    description_file: otherevents/boat_tour.md
     #transportation_file: events/boat_tour_transportation.md
   - name: titles.sunday_lunch
     date: dates.sunday_lunch_full
     time: times.sunday_lunch
     attire: attires.garden_party
-    description_file: events/sunday_lunch.md
+    description_file: otherevents/sunday_lunch.md
     #transportation_file: events/sunday_lunch_transportation.md
 
 faq:
@@ -129,7 +129,7 @@ faq:
       answer: |
         Stéphane found several open source wedding website projects on GitHub using <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> and <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>. We decided to fork one of them and adapt it to our wedding's needs. Source code and credits are available on <a target="_blank" href="https://github.com/thiell/wedding">GitHub</a>, where it is also hosted. All photos are ours.
   fr:
-    - question: Avez-vous une liste de mariage?
+    - question: En cours de construction #Avez-vous une liste de mariage?
       answer: |
-        Réponse FR
+        
 
