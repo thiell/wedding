@@ -1,6 +1,6 @@
 # Site settings
 title: Meredith & Stéphane
-email: stephane@thiell.com
+email: wedding@thiell.com
 url: https://narrowe.thiell.com
 description: "We're getting married and can't wait to celebrate with you!"
 baseurl: ""
@@ -26,7 +26,7 @@ locations:
     coordinates: 44.432361218143235,-1.1564129722482446
     google_maps_url: https://maps.app.goo.gl/HUA7HQhZSf8SbsTm9
   townhall: &townhall_location
-    location_name: Arcachon Town Hall
+    location_name: Mairie d'Arcachon
     address1: Place Lucien de Gracia
     address2: 33120 Arcachon, France
     coordinates: 44.66134271368623,-1.1705823317629953
