@@ -468,8 +468,13 @@ dd {
 }
 
 .billboard-four {
-  background-position: center center;
+  background-position: center top;
   background-image: url(../img/story-four.jpg);
+}
+
+.billboard-five {
+  background-position: center top;
+  background-image: url(../img/story-five.jpg);
 }
 
 .billboard-weddingday {
@@ -577,7 +582,6 @@ footer p {
 
 footer.site-footer {
   padding: 5px 10px;
-  background-color:  #dbd9ce;
   color: #010101;
   left: 0;
   bottom: 0;
