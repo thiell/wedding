@@ -8,6 +8,11 @@
                 <a class="navbar-brand" href="/">
                   M <font size="+1">+</font> S
                 </a>
+		{% if site.lang == "en" %}
+                  <a class="navbar-brand" href="/fr{{ page.url }}">🇫🇷</a>
+		{% elsif site.lang == "fr" %}
+                  <a class="navbar-brand" href="/en{{ page.url }}">🇺🇲</a>
+		{% endif %}
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,15 +69,6 @@
 		      </a>
 		    </li>
                     -->
-
-                    <li class="">
-			{% if site.lang == "en" %}
-                        	<a href="/fr{{ page.url }}">🇫🇷</a>
-			{% elsif site.lang == "fr" %}
-                        	<a href="/en{{ page.url }}">🇺🇲</a>
-			{% endif %}
-                    </li>
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
