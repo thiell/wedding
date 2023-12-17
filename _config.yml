@@ -128,6 +128,7 @@ faq:
         Where is this website hosted?
       answer: |
         Stéphane found several open source wedding website projects on GitHub using <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> and <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>. We decided to fork one of them and adapt it to our wedding's needs. Source code and credits are available on <a target="_blank" href="https://github.com/thiell/wedding">GitHub</a>, where it is also hosted. All photos are ours.
+
   fr:
     - question: En cours de construction #Avez-vous une liste de mariage?
       answer: |
@@ -154,7 +155,7 @@ faq:
     - question: |
         Travaillez-vous avec un wedding planner ?
       answer: |
-        Oui! Nous travaillons avec Mathilde Iglesias d'Étoiles d’un Jour. Elle est formidable et nous a aidé à trouver de très bons vendeurs locaux.
+        Oui ! Nous travaillons avec Mathilde Iglesias d'Étoiles d’un Jour. Elle est formidable et nous a aidé à trouver de très bons vendeurs locaux.
         Si vous souhaitez la contacter, elle est joignable par email au <a href="mailto:mathilde@etoilesdunjour.com">mathilde@etoilesdunjour.com</a>.
 
     - question: |
@@ -166,3 +167,7 @@ faq:
 
         Les Jeux olympiques d'été auront lieu à Paris à partir du 26 juillet.
 
+    - question: |
+        Où est hébergé ce site web ?
+      answer: |
+        Stéphane a trouvé plusieurs projets de site web <i>open source</i> pour mariage sur GitHub qui utilisent <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> et <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>. Nous avons décider de forker l'un d'eux et de l'adapter pour les besoins de notre mariage. Le code source et les crédits sont disponibles sur <a target="_blank" href="https://github.com/thiell/wedding">GitHub</a>, où ce site est également hébergé. Toutes les photos nous appartiennent.
