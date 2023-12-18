@@ -77,7 +77,8 @@ faq:
   en:
     - question: Do you have a registry?
       answer: |
-        TBD
+        We are so thankful for the effort you’ll be making to join us in France. Please know that your presence at our wedding is present enough! However, for those who have been asking for gift ideas, we’ve created online registries at <a target="_blank" href="https://heathceramics.myshopify.com/apps/registry/meredith-stephane">Heath Ceramics</a> and <a target="_blank" href="https://www.crateandbarrel.com/gift-registry/meredith-narrowe-and-stephane-thiell/r6833390">Crate & Barrel</a>.
+
     - question: What is the dress code?
       answer: |
         Come dressed for what it is – a garden party! Bright, cheerful colors are appreciated. Coat and tie are not required, but would not be out of place – it is standard at most French weddings and many of our French guests will wear them.
@@ -130,8 +131,9 @@ faq:
         Stéphane found several open source wedding website projects on GitHub using <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> and <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>. We decided to fork one of them and adapt it to our wedding's needs. Source code and credits are available on <a target="_blank" href="https://github.com/thiell/wedding">GitHub</a>, where it is also hosted. All photos are ours.
 
   fr:
-    - question: En cours de construction #Avez-vous une liste de mariage?
+    - question: Avez-vous une liste de mariage?
       answer: |
+        Notre plus beau cadeau sera à n'en pas douter votre présence ! Une urne sera mise à la disposition des invités pour ceux souhaitant participer à notre voyage de noces. À noter qu'aux États-Unis, il est de coutume de mettre à disposition des listes de mariage, et comme certains d'entre vous nous l'ont demandé, nous en avons créé une chez <a target="_blank" href="https://heathceramics.myshopify.com/apps/registry/meredith-stephane">Heath Ceramics</a> et chez <a target="_blank" href="https://www.crateandbarrel.com/gift-registry/meredith-narrowe-and-stephane-thiell/r6833390">Crate & Barrel</a>.
         
     - question: Quel est le code vestimentaire?
       answer: |
