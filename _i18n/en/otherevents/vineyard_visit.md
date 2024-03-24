@@ -14,7 +14,7 @@ We will be back in Bordeaux no later than 6:00 pm.
 Children are welcome and can join the tours or play outside at both properties. Those who prefer not to drink wine are welcome as well.
 </p>
 <p>
-Pricing (including transporation, lunch, and tastings as below):
+Pricing (including transportation, lunch, and tastings as below):
 <ul>
 <li>$150 per person for wine drinkers</li>
 <li>$123 per person ages 12 to 17 & adults who don't drink wine</li>
