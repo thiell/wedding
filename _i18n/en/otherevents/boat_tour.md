@@ -4,6 +4,12 @@ Participants will meet at <a href="https://maps.app.goo.gl/wQJ3EPtEdrQRTSSe6">Je
 <p>
 We will spend a few pleasant hours on the water seeing the sights in Arcachon Bay, including l'île aux Oiseaux (bird island) and the famous cabanes tchanquées (cabins on stilts). There will be a stop at a cabane à huîtres (oyster hut) in the village of Le Canon. A local oyster farmer will serve us oysters harvested from the bay paired with white wine. Alternative foods will be available for those who are oyster-averse. Sodas and water will be for sale on the boat.
 </p>
+<div class="thumbnail thumbnail-portrait">
+  <img src="/img/cabane-blanche-small.jpg" class="img-thumbnail" alt="Arcachon" title="Arcachon">
+  <div class="caption">
+    <p><i>La cabane tchanquée blanche (photo: Jonathan Thiell)</i></p>
+  </div>
+</div>
 <p>
 We will be back in Arcachon no later than 6:30 pm.
 </p>
