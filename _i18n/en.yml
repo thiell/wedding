@@ -14,11 +14,11 @@ dates:
   wedday: July 13, 2024
   wedday_full: Saturday, July 13, 2024
   vineyard_visit: July 9, 2024
-  vineyard_visit_full: Tuesday, July 9, 2024
+  vineyard_visit_full: Tuesday, July 9, 2024 - 12:00 pm to 6:00 pm
   boat_tour: July 11, 2024
-  boat_tour_full: Thursday, July 11, 2024
+  boat_tour_full: Thursday, July 11, 2024 - 3:00 pm to 6:30 pm
   sunday_lunch: July 14, 2024
-  sunday_lunch_full: Sunday, July 14, 2024
+  sunday_lunch_full: Sunday, July 14, 2024 - 12:00 pm to 2:30 pm
 times:
   civil_ceremony: 11am
   second_ceremony: 3pm
@@ -38,9 +38,9 @@ titles:
   swfrance: "Southwest France"
   registry: Registry
   civil_ceremony: Civil Ceremony
-  vineyard_visit: Wine Afternoon
+  vineyard_visit: Lunch & Wine Tasting Afternoon
   boat_tour: Boat Tour of Arcachon Bay
-  sunday_lunch: Lunch
+  sunday_lunch: Farewell Lunch
   etc: Etc
   faq: FAQ
   people: People

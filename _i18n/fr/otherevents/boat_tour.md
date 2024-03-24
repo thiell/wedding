@@ -1,6 +1,20 @@
+<p>
+Rendez-vous à la <a href="https://maps.app.goo.gl/wQJ3EPtEdrQRTSSe6">Jetée Thiers</a> d'Arcachon à 15h pour embarquer sur notre bateau privatisé.
+</p>
+<p>
+Nous passerons quelques heures sur l'eau à découvrir les sites remarquables du bassin d'Arcachon, notamment l'île aux Oiseaux et les célèbres cabanes tchanquées. Nous ferons un arrêt à une cabane à huîtres au Canon où un ostréiculteur nous servira des huîtres du bassin accompagnées de vin blanc. Si certains n’aiment pas les huîtres, il proposera aussi crevettes, pâté ou bulots. Des sodas et de l'eau seront en vente sur le bateau si besoin.
+</p>
+<p>
+Nous serons de retour à Arcachon au plus tard à 18h30.
+</p>
+<p>
+Prix:
 <ul>
-<li>Comprend un stop à une cabane à huîtres pour dégustation d'huîtres du bassin et vin blanc</li>
-<li>Cet événement se déroulera probablement dans l'après-midi et durera environ 3 heures</li>
-<li>Le point de rendez-vous sera à Arcachon, très probablement à la <a href="https://maps.app.goo.gl/wQJ3EPtEdrQRTSSe6">Jetée Thiers</a></li>
-<li>Le capitaine du bateau est très bavard et ne parle que français. Si vous parlez anglais, nous comptons sur vous pour assister les invités anglophones!</li>
+<li>37€ par personne pour le tour en bâteau</li>
+<li>10€ par personne pour la dégustation d'huîtres (ou crevettes, pâté ou bulots) et vin blanc</li>
+<li>Gratuit pour les enfants de 5 ans ou moins</li>
 </ul>
+</p>
+<p>
+Nous avons de la place sur le bateau pour 50 personnes. Utilisez ce <a href="https://forms.gle/D42W2iPANCt7dTdp9">formulaire Google</a> pour vous inscrire.
+</p>

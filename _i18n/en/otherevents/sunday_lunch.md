@@ -1,7 +1,12 @@
+<p>
+We will host a casual lunch at La Ferme d'en Chon (the wedding venue) from 12:00 to 2:30 pm. We will have an assortment of sandwiches, cheeses, salads, and "surprise bread" (a French innovation Meredith is particularly excited about).
+</p>
+<p>
+Friends and family are invited to stop by before heading out for onward travels.
+</p>
+<p>
 <ul>
-<li>Informal gathering one last time to conclude our wedding festivities!</li>
-<li>Will take place at La Ferme d’En Chon at 12pm</li>
-<li>This one’s on us 🙂</li>
+<li>Pricing: Free!</li>
+<li>No sign up necessary</li>
 </ul>
-
-
+</p>
