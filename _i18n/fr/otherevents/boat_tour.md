@@ -22,5 +22,5 @@ Prix:
 </ul>
 </p>
 <p>
-Nous avons de la place sur le bateau pour 50 personnes. Utilisez ce <a href="https://forms.gle/D42W2iPANCt7dTdp9">formulaire Google</a> pour vous inscrire.
+Nous avons de la place sur le bateau pour 50 personnes. Utilisez ce <a target="_blank" href="https://forms.gle/D42W2iPANCt7dTdp9">formulaire Google</a> pour vous inscrire.
 </p>

@@ -22,5 +22,5 @@ Pricing:
 </ul>
 </p>
 <p>
-We have room on the boat for 50 people. Use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHeoddWQKrY1CLGZPFKahHeyiE57wJ8D02Mv_CT8jZOty9jw/viewform?usp=sf_link">Google Form</a> to sign up.
+We have room on the boat for 50 people. Use this <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHeoddWQKrY1CLGZPFKahHeyiE57wJ8D02Mv_CT8jZOty9jw/viewform?usp=sf_link">Google Form</a> to sign up.
 </p>

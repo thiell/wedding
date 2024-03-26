@@ -22,5 +22,5 @@ Prix (comprend le transport, le déjeuner et les dégustations décrites ci-dess
 <li>Gratuit pour les enfants de 5 ans ou moins</li>
 </ul>
 <p>
-Nous avons de la place pour 32 personnes. Utilisez ce <a href="https://forms.gle/HDxgLYA11gt9dFkNA">formulaire Google</a> pour vous inscrire.
+Nous avons de la place pour 32 personnes. Utilisez ce <a target="_blank" href="https://forms.gle/HDxgLYA11gt9dFkNA">formulaire Google</a> pour vous inscrire.
 </p>

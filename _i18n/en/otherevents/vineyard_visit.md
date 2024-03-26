@@ -22,5 +22,5 @@ Pricing (including transportation, lunch, and tastings as below):
 <li>Children ages 5 and under are free</li>
 </ul>
 <p>
-We have room for 32 people. Use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSftMhXUJbjblAhnqw6zoqua5CJscplvgJptCAIBg7hXTZzuhQ/viewform?usp=sf_link">Google Form</a> to sign up. We request you do this sooner rather than later so we can confirm bus size.
+We have room for 32 people. Use this <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSftMhXUJbjblAhnqw6zoqua5CJscplvgJptCAIBg7hXTZzuhQ/viewform?usp=sf_link">Google Form</a> to sign up. We request you do this sooner rather than later so we can confirm bus size.
 </p>
