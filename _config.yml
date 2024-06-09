@@ -9,7 +9,7 @@ plugins:
   - jekyll-sitemap
 
 languages: ["en", "fr"]
-exclude_from_localizations: ["CNAME", "LICENSE", "README.md", "css", "index.html", "img", "js", "robots.txt"]
+exclude_from_localizations: ["CNAME", "LICENSE", "README.md", "css", "index.html", "img", "js", "robots.txt", "uploads"]
 default_locale_in_subfolder: true
 
 exclude: ["CNAME", "LICENSE", "README.md"]
